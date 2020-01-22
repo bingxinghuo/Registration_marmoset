@@ -1,0 +1,495 @@
+Wed Jul 18 00:27:00 EDT 2018
+M821
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015b (8.6.0.267246) 64-bit (glnxa64)
+                              August 20, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+[Warning: Directory already exists.] 
+[> In MRI_alignment_maskcost_invivo_hybrid_bnb_atlasstsonly (line 26)] 
+[Warning: Directory already exists.] 
+[> In MRI_alignment_maskcost_invivo_hybrid_bnb_atlasstsonly (line 28)] 
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.03 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 1.55 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 1.24 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.97 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.68 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 5.03 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.02 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.77 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.79 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze int16 image format.
+...reading axial unflipped orientation
+...done ( 0.96 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze uchar image format.
+...reading axial unflipped orientation
+...done ( 0.63 sec).
+
+iter: 1, cost: 14324028, im_t = 2861.6501, im_a = 14321166.0832, regxy = 0, regt = 0, ep = 5e-06, 4.16e-07
+iter: 2, cost: 14323747, im_t = 2861.6697, im_a = 14320885.2096, regxy = 7.2505e-06, regt = 0, ep = 5.2e-06, 4.16e-07
+iter: 3, cost: 14323742, im_t = 2866.0764, im_a = 14320875.4976, regxy = 7.2505e-06, regt = 1.4455e-05, ep = 5.2e-06, 4.3264e-07
+iter: 4, cost: 14323451, im_t = 2868.7571, im_a = 14320582.1588, regxy = 2.9996e-05, regt = 1.4455e-05, ep = 5.408e-06, 4.3264e-07
+iter: 5, cost: 14323470, im_t = 2897.1472, im_a = 14320572.8516, regxy = 2.9996e-05, regt = 4.3058e-05, ep = 5.408e-06, 4.3264e-07
+iter: 6, cost: 14323156, im_t = 2889.9875, im_a = 14320266.4787, regxy = 7.0145e-05, regt = 4.3058e-05, ep = 5.6243e-06, 4.3264e-07
+iter: 7, cost: 14323278, im_t = 3021.9724, im_a = 14320256.1251, regxy = 7.0145e-05, regt = 0.00014963, ep = 5.6243e-06, 4.3264e-07
+iter: 8, cost: 14322921, im_t = 2983.2864, im_a = 14319937.8583, regxy = 0.0001305, regt = 0.00014963, ep = 5.8493e-06, 4.3264e-07
+iter: 9, cost: 14323352, im_t = 3431.7034, im_a = 14319920.6674, regxy = 0.0001305, regt = 0.00038459, ep = 5.8493e-06, 4.3264e-07
+iter: 10, cost: 14322919, im_t = 3328.103, im_a = 14319590.8464, regxy = 0.0002121, regt = 0.00038459, ep = 6.0833e-06, 4.3264e-07
+iter: 11, cost: 14323471, im_t = 3902.9966, im_a = 14319567.7762, regxy = 0.0002121, regt = 0.00082704, ep = 6.0833e-06, 4.3264e-07
+iter: 12, cost: 14322993, im_t = 3768.3965, im_a = 14319224.249, regxy = 0.00031798, regt = 0.00082704, ep = 6.0833e-06, 4.3264e-07
+iter: 13, cost: 14323080, im_t = 3865.3726, im_a = 14319214.1723, regxy = 0.00031798, regt = 0.0007845, ep = 6.0833e-06, 4.3264e-07
+iter: 14, cost: 14322580, im_t = 3708.959, im_a = 14318871.402, regxy = 0.00044545, regt = 0.0007845, ep = 6.3266e-06, 4.3264e-07
+iter: 15, cost: 14323080, im_t = 4233.4561, im_a = 14318846.8842, regxy = 0.00044545, regt = 0.0012054, ep = 6.3266e-06, 4.3264e-07
+iter: 16, cost: 14322545, im_t = 4053.272, im_a = 14318492.1111, regxy = 0.00060062, regt = 0.0012054, ep = 6.5797e-06, 4.3264e-07
+iter: 17, cost: 14322628, im_t = 4142.9434, im_a = 14318484.5791, regxy = 0.00060062, regt = 0.0011145, ep = 6.5797e-06, 4.3264e-07
+iter: 18, cost: 14322035, im_t = 3918.8303, im_a = 14318115.9272, regxy = 0.00078825, regt = 0.0011145, ep = 6.8428e-06, 4.3264e-07
+iter: 19, cost: 14322976, im_t = 4893.209, im_a = 14318082.3729, regxy = 0.00078825, regt = 0.0017515, ep = 6.8428e-06, 4.3264e-07
+iter: 20, cost: 14322262, im_t = 4559.9707, im_a = 14317701.7276, regxy = 0.0010091, regt = 0.0017515, ep = 6.8428e-06, 4.3264e-07
+iter: 21, cost: 14322943, im_t = 5257.0171, im_a = 14317685.8789, regxy = 0.0010091, regt = 0.0019442, ep = 6.8428e-06, 4.3264e-07
+iter: 22, cost: 14322116, im_t = 4808.6743, im_a = 14317306.8485, regxy = 0.0012586, regt = 0.0019442, ep = 6.8428e-06, 4.3264e-07
+iter: 23, cost: 14323683, im_t = 6415.0522, im_a = 14317268.0781, regxy = 0.0012586, regt = 0.0028929, ep = 6.8428e-06, 4.3264e-07
+iter: 24, cost: 14322746, im_t = 5853.7354, im_a = 14316891.7875, regxy = 0.0015325, regt = 0.0028929, ep = 6.8428e-06, 4.3264e-07
+reducing epsilontheta to 2.8843e-07
+iter: 25, cost: 14322035, im_t = 3918.8303, im_a = 14318115.9272, regxy = 0.00078825, regt = 0.0011145, ep = 6.8428e-06, 2.8843e-07
+iter: 26, cost: 14321626, im_t = 3900.7148, im_a = 14317725.4523, regxy = 0.0010109, regt = 0.0011145, ep = 7.1166e-06, 2.8843e-07
+iter: 27, cost: 14321234, im_t = 3512.4045, im_a = 14317721.3831, regxy = 0.0010109, regt = 0.00074165, ep = 7.1166e-06, 2.9996e-07
+iter: 28, cost: 14320541, im_t = 3223.2104, im_a = 14317317.9787, regxy = 0.0012655, regt = 0.00074165, ep = 7.4012e-06, 2.9996e-07
+iter: 29, cost: 14320717, im_t = 3410.9434, im_a = 14317306.0064, regxy = 0.0012655, regt = 0.00077197, ep = 7.4012e-06, 2.9996e-07
+iter: 30, cost: 14320100, im_t = 3216.688, im_a = 14316883.3988, regxy = 0.0015656, regt = 0.00077197, ep = 7.6973e-06, 2.9996e-07
+iter: 31, cost: 14320271, im_t = 3399.366, im_a = 14316872.0645, regxy = 0.0015656, regt = 0.00085314, ep = 7.6973e-06, 2.9996e-07
+iter: 32, cost: 14319644, im_t = 3214.0427, im_a = 14316430.13, regxy = 0.0019135, regt = 0.00085314, ep = 8.0052e-06, 2.9996e-07
+iter: 33, cost: 14319793, im_t = 3373.2356, im_a = 14316419.2932, regxy = 0.0019135, regt = 0.00088104, ep = 8.0052e-06, 2.9996e-07
+iter: 34, cost: 14319190, im_t = 3234.2312, im_a = 14315955.6457, regxy = 0.0023117, regt = 0.00088104, ep = 8.3254e-06, 2.9996e-07
+iter: 35, cost: 14319295, im_t = 3349.051, im_a = 14315945.6293, regxy = 0.0023117, regt = 0.00094314, ep = 8.3254e-06, 2.9996e-07
+iter: 36, cost: 14318814, im_t = 3354.2515, im_a = 14315459.9012, regxy = 0.0027716, regt = 0.00094314, ep = 8.6584e-06, 2.9996e-07
+iter: 37, cost: 14318874, im_t = 3422.8359, im_a = 14315450.823, regxy = 0.0027716, regt = 0.0009899, ep = 8.6584e-06, 2.9996e-07
+iter: 38, cost: 14318677, im_t = 3734.7148, im_a = 14314942.4702, regxy = 0.0032975, regt = 0.0009899, ep = 9.0047e-06, 2.9996e-07
+iter: 39, cost: 14318713, im_t = 3778.3831, im_a = 14314934.6919, regxy = 0.0032975, regt = 0.0010724, ep = 9.0047e-06, 2.9996e-07
+iter: 40, cost: 14318693, im_t = 4287.3223, im_a = 14314405.2971, regxy = 0.0039026, regt = 0.0010724, ep = 9.0047e-06, 2.9996e-07
+iter: 41, cost: 14318693, im_t = 4292.2222, im_a = 14314400.8288, regxy = 0.0039026, regt = 0.0011538, ep = 9.0047e-06, 2.9996e-07
+iter: 42, cost: 14318422, im_t = 4551.8896, im_a = 14313869.6276, regxy = 0.004536, regt = 0.0011538, ep = 9.3649e-06, 2.9996e-07
+iter: 43, cost: 14318411, im_t = 4544.4429, im_a = 14313867.0074, regxy = 0.004536, regt = 0.0012349, ep = 9.3649e-06, 3.1196e-07
+iter: 44, cost: 14318601, im_t = 5285.4492, im_a = 14313315.1013, regxy = 0.0052703, regt = 0.0012349, ep = 9.3649e-06, 3.1196e-07
+iter: 45, cost: 14318586, im_t = 5271.9038, im_a = 14313313.9538, regxy = 0.0052703, regt = 0.001331, ep = 9.3649e-06, 3.1196e-07
+iter: 46, cost: 14318777, im_t = 6018.2974, im_a = 14312758.5901, regxy = 0.0060448, regt = 0.001331, ep = 9.3649e-06, 3.1196e-07
+iter: 47, cost: 14318747, im_t = 5990.6836, im_a = 14312756.7593, regxy = 0.0060448, regt = 0.0014137, ep = 9.3649e-06, 3.1196e-07
+iter: 48, cost: 14318988, im_t = 6786.8315, im_a = 14312201.511, regxy = 0.0068857, regt = 0.0014137, ep = 9.3649e-06, 3.1196e-07
+iter: 49, cost: 14318961, im_t = 6761.2197, im_a = 14312199.5504, regxy = 0.0068857, regt = 0.0014959, ep = 9.3649e-06, 3.1196e-07
+iter: 50, cost: 14318728, im_t = 7080.5054, im_a = 14311647.5139, regxy = 0.0077414, regt = 0.0014959, ep = 9.3649e-06, 3.1196e-07
+iter: 51, cost: 14318696, im_t = 7050.9731, im_a = 14311644.6199, regxy = 0.0077414, regt = 0.0015672, ep = 9.3649e-06, 3.1196e-07
+iter: 52, cost: 14318362, im_t = 7266.374, im_a = 14311095.2532, regxy = 0.0086569, regt = 0.0015672, ep = 9.7395e-06, 3.1196e-07
+iter: 53, cost: 14318324, im_t = 7232.4756, im_a = 14311091.8525, regxy = 0.0086569, regt = 0.0016358, ep = 9.7395e-06, 3.2444e-07
+iter: 54, cost: 14318401, im_t = 7870.5508, im_a = 14310530.3966, regxy = 0.0096609, regt = 0.0016358, ep = 9.7395e-06, 3.2444e-07
+iter: 55, cost: 14318361, im_t = 7835.4385, im_a = 14310525.9254, regxy = 0.0096609, regt = 0.0016937, ep = 9.7395e-06, 3.2444e-07
+iter: 56, cost: 14317699, im_t = 7741.4419, im_a = 14309957.4926, regxy = 0.010698, regt = 0.0016937, ep = 1.0129e-05, 3.2444e-07
+iter: 57, cost: 14317662, im_t = 7709.2983, im_a = 14309952.4575, regxy = 0.010698, regt = 0.0017506, ep = 1.0129e-05, 3.3742e-07
+iter: 58, cost: 14317940, im_t = 8558.3896, im_a = 14309381.7317, regxy = 0.011854, regt = 0.0017506, ep = 1.0129e-05, 3.3742e-07
+iter: 59, cost: 14317905, im_t = 8530.5137, im_a = 14309374.7518, regxy = 0.011854, regt = 0.0017982, ep = 1.0129e-05, 3.3742e-07
+iter: 60, cost: 14316997, im_t = 8202.2207, im_a = 14308794.5894, regxy = 0.013022, regt = 0.0017982, ep = 1.0534e-05, 3.3742e-07
+iter: 61, cost: 14316959, im_t = 8173.5205, im_a = 14308785.5665, regxy = 0.013022, regt = 0.001849, ep = 1.0534e-05, 3.5092e-07
+iter: 62, cost: 14317508, im_t = 9294.8887, im_a = 14308212.7091, regxy = 0.014343, regt = 0.001849, ep = 1.0534e-05, 3.5092e-07
+iter: 63, cost: 14317474, im_t = 9271.8623, im_a = 14308202.0257, regxy = 0.014343, regt = 0.0018952, ep = 1.0534e-05, 3.5092e-07
+iter: 64, cost: 14316310, im_t = 8703.0088, im_a = 14307606.5563, regxy = 0.015645, regt = 0.0018952, ep = 1.0956e-05, 3.5092e-07
+iter: 65, cost: 14316271, im_t = 8675.6445, im_a = 14307595.0663, regxy = 0.015645, regt = 0.0019516, ep = 1.0956e-05, 3.6495e-07
+iter: 66, cost: 14317368, im_t = 10336.9492, im_a = 14307030.9834, regxy = 0.017148, regt = 0.0019516, ep = 1.0956e-05, 3.6495e-07
+iter: 67, cost: 14317331, im_t = 10313.2275, im_a = 14307017.4628, regxy = 0.017148, regt = 0.0020111, ep = 1.0956e-05, 3.6495e-07
+iter: 68, cost: 14315775, im_t = 9369.1562, im_a = 14306405.7476, regxy = 0.018579, regt = 0.0020111, ep = 1.1394e-05, 3.6495e-07
+iter: 69, cost: 14315742, im_t = 9351.4941, im_a = 14306390.4091, regxy = 0.018579, regt = 0.0020904, ep = 1.1394e-05, 3.7955e-07
+iter: 70, cost: 14317371, im_t = 11518.5615, im_a = 14305852.9374, regxy = 0.020268, regt = 0.0020904, ep = 1.1394e-05, 3.7955e-07
+iter: 71, cost: 14317333, im_t = 11496.8369, im_a = 14305835.8707, regxy = 0.020268, regt = 0.0021833, ep = 1.1394e-05, 3.7955e-07
+iter: 72, cost: 14314868, im_t = 9665.1719, im_a = 14305202.545, regxy = 0.021796, regt = 0.0021833, ep = 1.185e-05, 3.7955e-07
+iter: 73, cost: 14314822, im_t = 9637.6279, im_a = 14305184.6947, regxy = 0.021796, regt = 0.002305, ep = 1.185e-05, 3.9473e-07
+iter: 74, cost: 14317284, im_t = 12593.2285, im_a = 14304690.5061, regxy = 0.023686, regt = 0.002305, ep = 1.185e-05, 3.9473e-07
+iter: 75, cost: 14317233, im_t = 12561.5498, im_a = 14304671.5851, regxy = 0.023686, regt = 0.0024497, ep = 1.185e-05, 3.9473e-07
+iter: 76, cost: 14313721, im_t = 9708.9688, im_a = 14304011.9398, regxy = 0.025296, regt = 0.0024497, ep = 1.2324e-05, 3.9473e-07
+iter: 77, cost: 14313686, im_t = 9694.2168, im_a = 14303991.3977, regxy = 0.025296, regt = 0.0026316, ep = 1.2324e-05, 4.1052e-07
+iter: 78, cost: 14317119, im_t = 13568.6836, im_a = 14303550.0049, regxy = 0.027386, regt = 0.0026316, ep = 1.2324e-05, 4.1052e-07
+iter: 79, cost: 14317076, im_t = 13548.6768, im_a = 14303527.7459, regxy = 0.027386, regt = 0.0028493, ep = 1.2324e-05, 4.1052e-07
+iter: 80, cost: 14312668, im_t = 9817.4238, im_a = 14302850.3524, regxy = 0.029074, regt = 0.0028493, ep = 1.2817e-05, 4.1052e-07
+iter: 81, cost: 14312623, im_t = 9796.0986, im_a = 14302827.2686, regxy = 0.029074, regt = 0.0031094, ep = 1.2817e-05, 4.2694e-07
+iter: 82, cost: 14317105, im_t = 14645.7568, im_a = 14302458.7758, regxy = 0.03137, regt = 0.0031094, ep = 1.2817e-05, 4.2694e-07
+iter: 83, cost: 14317057, im_t = 14620.9277, im_a = 14302436.5112, regxy = 0.03137, regt = 0.0034139, ep = 1.2817e-05, 4.2694e-07
+iter: 84, cost: 14311214, im_t = 9491.0615, im_a = 14301722.5255, regxy = 0.033088, regt = 0.0034139, ep = 1.3329e-05, 4.2694e-07
+iter: 85, cost: 14311174, im_t = 9474.0488, im_a = 14301699.8738, regxy = 0.033088, regt = 0.0037636, ep = 1.3329e-05, 4.4402e-07
+iter: 86, cost: 14316659, im_t = 15269.6562, im_a = 14301389.2843, regxy = 0.035554, regt = 0.0037636, ep = 1.3329e-05, 4.4402e-07
+iter: 87, cost: 14316611, im_t = 15250.0908, im_a = 14301361.1825, regxy = 0.035554, regt = 0.0041642, ep = 1.3329e-05, 4.4402e-07
+iter: 88, cost: 14310773, im_t = 10100.4639, im_a = 14300672.3334, regxy = 0.037368, regt = 0.0041642, ep = 1.3862e-05, 4.4402e-07
+iter: 89, cost: 14310720, im_t = 10086.2246, im_a = 14300634.2192, regxy = 0.037368, regt = 0.0046066, ep = 1.3862e-05, 4.6178e-07
+iter: 90, cost: 14316879, im_t = 16448.4902, im_a = 14300430.2482, regxy = 0.040007, regt = 0.0046066, ep = 1.3862e-05, 4.6178e-07
+iter: 91, cost: 14316818, im_t = 16405.3672, im_a = 14300412.5867, regxy = 0.040007, regt = 0.0051047, ep = 1.3862e-05, 4.6178e-07
+iter: 92, cost: 14309029, im_t = 9379.3291, im_a = 14299650.0263, regxy = 0.041777, regt = 0.0051047, ep = 1.4417e-05, 4.6178e-07
+iter: 93, cost: 14309096, im_t = 9464.4365, im_a = 14299631.8452, regxy = 0.041777, regt = 0.0057297, ep = 1.4417e-05, 4.6178e-07
+iter: 94, cost: 14314892, im_t = 15487.4521, im_a = 14299404.3094, regxy = 0.044447, regt = 0.0057297, ep = 1.4417e-05, 4.6178e-07
+iter: 95, cost: 14314821, im_t = 15438.46, im_a = 14299382.5065, regxy = 0.044447, regt = 0.0062381, ep = 1.4417e-05, 4.6178e-07
+iter: 96, cost: 14311233, im_t = 12364.166, im_a = 14298868.6413, regxy = 0.04658, regt = 0.0062381, ep = 1.4417e-05, 4.6178e-07
+iter: 97, cost: 14311189, im_t = 12333.6494, im_a = 14298855.6943, regxy = 0.04658, regt = 0.0068556, ep = 1.4417e-05, 4.6178e-07
+iter: 98, cost: 14312666, im_t = 14178.5879, im_a = 14298487.8294, regxy = 0.048899, regt = 0.0068556, ep = 1.4417e-05, 4.6178e-07
+iter: 99, cost: 14312889, im_t = 14417.7676, im_a = 14298471.467, regxy = 0.048899, regt = 0.0076346, ep = 1.4417e-05, 4.6178e-07
+iter: 100, cost: 14309800, im_t = 11807.6807, im_a = 14297992.2815, regxy = 0.050982, regt = 0.0076346, ep = 1.4417e-05, 4.6178e-07
+iter: 101, cost: 14309969, im_t = 11985.0234, im_a = 14297984.3301, regxy = 0.050982, regt = 0.0083864, ep = 1.4417e-05, 4.6178e-07
+iter: 102, cost: 14314081, im_t = 16263.0273, im_a = 14297817.8648, regxy = 0.053462, regt = 0.0083864, ep = 1.4417e-05, 4.6178e-07
+iter: 103, cost: 14313923, im_t = 16136.5645, im_a = 14297786.1217, regxy = 0.053462, regt = 0.0087697, ep = 1.4417e-05, 4.6178e-07
+iter: 104, cost: 14310044, im_t = 12704.7764, im_a = 14297339.4641, regxy = 0.055415, regt = 0.0087697, ep = 1.4417e-05, 4.6178e-07
+reducing epsilontheta to 3.0785e-07
+iter: 105, cost: 14309029, im_t = 9379.3291, im_a = 14299650.0263, regxy = 0.041777, regt = 0.0051047, ep = 1.4417e-05, 3.0785e-07
+reducing epsilonxy to 9.6112e-06
+iter: 106, cost: 14309029, im_t = 9379.3291, im_a = 14299650.0263, regxy = 0.041777, regt = 0.0051047, ep = 9.6112e-06, 3.0785e-07
+iter: 107, cost: 14309006, im_t = 9372.2578, im_a = 14299634.2174, regxy = 0.041777, regt = 0.0054705, ep = 9.6112e-06, 3.2017e-07
+iter: 108, cost: 14306324, im_t = 7067.5366, im_a = 14299256.0441, regxy = 0.043125, regt = 0.0054705, ep = 9.9957e-06, 3.2017e-07
+iter: 109, cost: 14306275, im_t = 7038.2266, im_a = 14299237.1999, regxy = 0.043125, regt = 0.0058307, ep = 9.9957e-06, 3.3297e-07
+iter: 110, cost: 14307207, im_t = 8251.9531, im_a = 14298954.5576, regxy = 0.044755, regt = 0.0058307, ep = 9.9957e-06, 3.3297e-07
+iter: 111, cost: 14307154, im_t = 8233.1787, im_a = 14298921.0928, regxy = 0.044755, regt = 0.0062495, ep = 9.9957e-06, 3.3297e-07
+iter: 112, cost: 14307486, im_t = 8803.623, im_a = 14298681.929, regxy = 0.046319, regt = 0.0062495, ep = 9.9957e-06, 3.3297e-07
+iter: 113, cost: 14307416, im_t = 8773.6592, im_a = 14298642.8039, regxy = 0.046319, regt = 0.0066737, ep = 9.9957e-06, 3.3297e-07
+iter: 114, cost: 14307332, im_t = 8958.877, im_a = 14298373.3451, regxy = 0.047904, regt = 0.0066737, ep = 9.9957e-06, 3.3297e-07
+iter: 115, cost: 14307268, im_t = 8931.4287, im_a = 14298336.9654, regxy = 0.047904, regt = 0.0071141, ep = 9.9957e-06, 3.3297e-07
+iter: 116, cost: 14307053, im_t = 8954.04, im_a = 14298099.2519, regxy = 0.049424, regt = 0.0071141, ep = 9.9957e-06, 3.3297e-07
+iter: 117, cost: 14306985, im_t = 8924.0508, im_a = 14298061.4343, regxy = 0.049424, regt = 0.0075703, ep = 9.9957e-06, 3.3297e-07
+iter: 118, cost: 14306835, im_t = 9017.3066, im_a = 14297817.4968, regxy = 0.050983, regt = 0.0075703, ep = 9.9957e-06, 3.3297e-07
+iter: 119, cost: 14306769, im_t = 8988.1123, im_a = 14297781.2105, regxy = 0.050983, regt = 0.0080305, ep = 9.9957e-06, 3.3297e-07
+iter: 120, cost: 14306520, im_t = 8958.7432, im_a = 14297560.7753, regxy = 0.052474, regt = 0.0080305, ep = 9.9957e-06, 3.3297e-07
+iter: 121, cost: 14306452, im_t = 8927.5664, im_a = 14297523.9991, regxy = 0.052474, regt = 0.008506, ep = 9.9957e-06, 3.3297e-07
+iter: 122, cost: 14306345, im_t = 9040.3809, im_a = 14297304.2448, regxy = 0.054006, regt = 0.008506, ep = 9.9957e-06, 3.3297e-07
+iter: 123, cost: 14306277, im_t = 9008.4131, im_a = 14297268.4476, regxy = 0.054006, regt = 0.0089779, ep = 9.9957e-06, 3.3297e-07
+iter: 124, cost: 14306026, im_t = 8959.0908, im_a = 14297066.7473, regxy = 0.055465, regt = 0.0089779, ep = 1.0396e-05, 3.3297e-07
+iter: 125, cost: 14305956, im_t = 8925.5742, im_a = 14297030.8051, regxy = 0.055465, regt = 0.0094643, ep = 1.0396e-05, 3.4629e-07
+iter: 126, cost: 14306696, im_t = 9842.7441, im_a = 14296852.9779, regxy = 0.057069, regt = 0.0094643, ep = 1.0396e-05, 3.4629e-07
+iter: 127, cost: 14306628, im_t = 9809.3057, im_a = 14296818.2777, regxy = 0.057069, regt = 0.0099588, ep = 1.0396e-05, 3.4629e-07
+iter: 128, cost: 14305976, im_t = 9368.2275, im_a = 14296607.2953, regxy = 0.05853, regt = 0.0099588, ep = 1.0396e-05, 3.4629e-07
+iter: 129, cost: 14305906, im_t = 9334.084, im_a = 14296572.3833, regxy = 0.05853, regt = 0.010474, ep = 1.0396e-05, 3.6015e-07
+iter: 130, cost: 14306210, im_t = 9806.5547, im_a = 14296402.9499, regxy = 0.060075, regt = 0.010474, ep = 1.0396e-05, 3.6015e-07
+iter: 131, cost: 14306140, im_t = 9771.7686, im_a = 14296367.9588, regxy = 0.060075, regt = 0.010988, ep = 1.0396e-05, 3.6015e-07
+iter: 132, cost: 14305611, im_t = 9432.7969, im_a = 14296177.9148, regxy = 0.061501, regt = 0.010988, ep = 1.0811e-05, 3.6015e-07
+iter: 133, cost: 14305538, im_t = 9395.2217, im_a = 14296142.8654, regxy = 0.061501, regt = 0.01152, ep = 1.0811e-05, 3.7455e-07
+iter: 134, cost: 14306666, im_t = 10648.3457, im_a = 14296017.7507, regxy = 0.063111, regt = 0.01152, ep = 1.0811e-05, 3.7455e-07
+iter: 135, cost: 14306595, im_t = 10610.1572, im_a = 14295984.7084, regxy = 0.063111, regt = 0.012039, ep = 1.0811e-05, 3.7455e-07
+iter: 136, cost: 14305576, im_t = 9798.5303, im_a = 14295777.4554, regxy = 0.064524, regt = 0.012039, ep = 1.0811e-05, 3.7455e-07
+iter: 137, cost: 14305504, im_t = 9759.3945, im_a = 14295744.8784, regxy = 0.064524, regt = 0.012583, ep = 1.0811e-05, 3.8953e-07
+iter: 138, cost: 14306255, im_t = 10625.2607, im_a = 14295629.2694, regxy = 0.066068, regt = 0.012583, ep = 1.0811e-05, 3.8953e-07
+iter: 139, cost: 14306181, im_t = 10584.7217, im_a = 14295596.7676, regxy = 0.066068, regt = 0.013108, ep = 1.0811e-05, 3.8953e-07
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 5.05 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.01 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+[Warning: ...unknown datatype, using type 16 (32 bit floats).\n] 
+[> In avw_img_write>write_image (line 182)
+  In avw_img_write (line 128)
+  In MRI_alignment_maskcost_invivo_hybrid_bnb_atlasstsonly (line 241)] 
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 4.92 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.00 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.01 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.87 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 4.93 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.00 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 4.80 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.00 sec).
+
+BIN_DIRECTORY              : /sonas-hs/mitra/hpc/home/blee/code/can/BIN/
+SCRIPTS_DIRECTORY          : /sonas-hs/mitra/hpc/home/blee/code/can
+AIR_BIN_DIRECTORY          : /usr/local/air/bin/
+
+
+13
+0 = 1
+1 = /sonas-hs/mitra/hpc/home/blee/data/registration/M821/wtlddmmoutputrem_iter9.img
+2 = /sonas-hs/mitra/hpc/home/blee/data/registration/M821/wtoutputrem_iter9.img
+3 = /sonas-hs/mitra/hpc/home/blee/data/registration/M821//M821_costmask.img
+4 = 0.4
+5 = /sonas-hs/mitra/hpc/home/blee/data/registration/M821/M821_lddmm9
+6 = 1
+7 = 0.065
+8 = 10
+9 = 1
+10 = 1
+11 = 1.0
+12 = 20
+13 = 0.85
+
+ 0.065 10 
+Output_folder    :   /sonas-hs/mitra/hpc/home/blee/data/registration/M821/M821_lddmm9
+
+Channel_number   :   1
+Channel 1
+	Template     :   /sonas-hs/mitra/hpc/home/blee/data/registration/M821/wtlddmmoutputrem_iter9.img
+	Target       :   /sonas-hs/mitra/hpc/home/blee/data/registration/M821/wtoutputrem_iter9.img
+	Weight       :   /sonas-hs/mitra/hpc/home/blee/data/registration/M821//M821_costmask.img
+	Sigma        :   0.4
+
+Cascading iteration_number :   1
+Alphas                     :   	0.065	
+Number of timesteps        :   	10	
+Deltas                     :   	0.1	
+
+Output level               :   1
+	Only final Hmap/Kimap saved
+Interpolation type         :   1
+	Linear interpolation
+Scaling factor             :   1.0
+
+**************************************************************************
+*                                 STEP-1                                 *
+**************************************************************************
+copying files into output folder 
+
+
+**************************************************************************
+*                                 STEP-2                                 *
+**************************************************************************
+padding files if necessary 
+
+data is being padded 
+362 	455 	359 	
+362 	455 	359 	
+ 	 	 	
+ 	 	 	
+
+**************************************************************************
+*                                 STEP-3                                 *
+**************************************************************************
+lddmm 
+
+	iteration no:	1
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+sh: line 1: 11108 Aborted                 (core dumped) /sonas-hs/mitra/hpc/home/blee/code/can/BIN//mmlddmm_ver4_template 1 img ./imgfiles/wtlddmmoutputrem_iter9_curtemplate_1.img ./imgfiles/wtoutputrem_iter9_curtarget_1.img ./imgfiles/M821_costmask_curweight_1.img 0.4 20 10 0.1 0.00000000001 0.065 1 1 1000 0 0.85 25 > stdout.txt
+cp: cannot stat `Kimap000.vtk': No such file or directory
+cp: cannot stat `Hmap000.vtk': No such file or directory
+ File <./Kimap_001.vtk> could not be opened 
+
+**************************************************************************
+*                                 STEP-4                                 *
+**************************************************************************
+combining transformation files 
+
+cp: cannot stat `Kimap_001.vtk': No such file or directory
+cp: cannot stat `Hmap_001.vtk': No such file or directory
+padding removed from deformation files 
+ File <Kimap000.vtk> could not be opened 
+ File <Hmap000.vtk> could not be opened 
+rm: cannot remove `Kimap_001.vtk': No such file or directory
+rm: cannot remove `Hmap_001.vtk': No such file or directory
+rm: cannot remove `gradI0000.vtk': No such file or directory
+rm: cannot remove `Atlas000.vtk': No such file or directory
+rm: cannot remove `defAtlas000.vtk': No such file or directory
+rm: cannot remove `Patient000.vtk': No such file or directory
+rm: cannot remove `defPatient000.vtk': No such file or directory
+rm: cannot remove `Atlas.img': No such file or directory
+rm: cannot remove `Atlas.hdr': No such file or directory
+rm: cannot remove `defAtlas.img': No such file or directory
+rm: cannot remove `defAtlas.hdr': No such file or directory
+rm: cannot remove `Patient.img': No such file or directory
+rm: cannot remove `Patient.hdr': No such file or directory
+rm: cannot remove `defPatient.img': No such file or directory
+rm: cannot remove `defPatient.hdr': No such file or directory
+
+...Completed
+Total running time is 114 seconds
+
+
+INPUTS TO THE PROGRAM
+0> /sonas-hs/mitra/hpc/home/blee/code/can/BIN/VTK_combine_maps_ver5
+1> 1
+2> /sonas-hs/mitra/hpc/home/blee/data/registration/M821/M821_lddmm9/Hmap000.vtk
+3> /sonas-hs/mitra/hpc/home/blee/data/registration/M821/Hmap_composed.vtk
+
+4
+1
+ File </sonas-hs/mitra/hpc/home/blee/data/registration/M821/M821_lddmm9/Hmap000.vtk> could not be opened 
+/sonas-hs/mitra/hpc/home/blee/data/registration/M821/Hmap_composed.vtk
+
+ans =
+
+     0
+
+
+INPUTS TO THE PROGRAM
+0> /sonas-hs/mitra/hpc/home/blee/code/can/BIN/IMG_apply_lddmm_tform1
+1> /sonas-hs/mitra/hpc/home/blee/data/registration/M821/M821_affine_lhmsmooth.img
+2> /sonas-hs/mitra/hpc/home/blee/data/registration/M821/Hmap_composed.vtk
+3> /sonas-hs/mitra/hpc/home/blee/data/registration/M821//wtlddmmoutput_iter9.img
+4> 1
+
+VTKMAP
+ One of the dimensions is Zero, File Corrupted 
+ Mapx corrupted 
+
+INPUTS TO THE PROGRAM
+0> /sonas-hs/mitra/hpc/home/blee/code/can/BIN/IMG_apply_lddmm_tform1
+1> /sonas-hs/mitra/hpc/home/blee/data/registration/M821/M821_atlasmasksmoothed.img
+2> /sonas-hs/mitra/hpc/home/blee/data/registration/M821/Hmap_composed.vtk
+3> /sonas-hs/mitra/hpc/home/blee/data/registration/M821//wtlddmmmask_iter9.img
+4> 2
+
+VTKMAP
+ One of the dimensions is Zero, File Corrupted 
+ Mapx corrupted 
+
+AVW_HDR_READ [v 1.1 ]
+{Error using avw_hdr_read (line 94)
+...cannot find file
+/sonas-hs/mitra/hpc/home/blee/data/registration/M821/wtlddmmoutput_iter9.hdr.hdr
+
+
+
+Error in avw_img_read (line 109)
+[ avw, machine ] = avw_hdr_read(fileprefix,machine,verbose);
+
+
+Error in MRI_alignment_maskcost_invivo_hybrid_bnb_atlasstsonly (line 306)
+    atlasoutput = avw_img_read([dataoutputdirectoryname 'wtlddmmoutput_iter'
+    num2str(i) '.img'],0);
+} 
+>> com.mathworks.util.ShutdownRuntimeException: Java is shutting down
+	at com.mathworks.services.Prefs.nativeGetPreferencesDirectory(Native Method)
+	at com.mathworks.services.Prefs.getPropertyDirectory(Prefs.java:198)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferenceUtils.resolveToPrefDir(MatlabKeyBindingPreferenceUtils.java:112)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferences.getModifiedDefaultFile(MatlabKeyBindingPreferences.java:213)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferences.resolveModifiedDefaultFilesFromPrefs(MatlabKeyBindingPreferences.java:116)
+	at com.mathworks.services.binding.MatlabKeyBindings.initializeFromPrefs(MatlabKeyBindings.java:717)
+	at com.mathworks.services.binding.MatlabKeyBindings.<clinit>(MatlabKeyBindings.java:590)
+	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:194)
+	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:190)
+	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions$1.<init>(DebuggerManager.java:97)
+	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions.<clinit>(DebuggerManager.java:97)
+	at com.mathworks.widgets.debug.DebuggerManager.getContinueAction(DebuggerManager.java:292)
+	at com.mathworks.matlabserver.worker.service.breakpoint.impl13b.DebuggerInstaller.<init>(DebuggerInstaller.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at com.mathworks.matlabserver.a.b.R(Unknown Source)
+	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
+	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
+	at com.mathworks.matlabserver.a.f.initialized(Unknown Source)
+	at com.mathworks.matlabserver.connectorcommon.b.b.run(Unknown Source)
+	at com.mathworks.matlabserver.connectorcommon.util.g.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Wed Jul 18 01:05:11 EDT 2018

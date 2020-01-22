@@ -1,0 +1,55 @@
+function imgout = make_blank_img()
+imgout = struct;
+imgout.hdr = struct;
+imgout.hdr.hk = struct;
+imgout.hdr.dime = struct;
+imgout.hdr.hist = struct;
+imgout.hdr.hk.sizeof_hdr = 348;
+imgout.hdr.hk.data_type = 'CHAR WN   ';
+imgout.hdr.hk.db_name = '                  ';
+imgout.hdr.hk.extents = 16384;
+imgout.hdr.hk.session_error = 0;
+imgout.hdr.hk.regular = 'r';
+imgout.hdr.hk.hkey_un0 = 0;
+imgout.hdr.dime.dim = [4 512 248 512 1 1 1 1];
+imgout.hdr.dime.vox_units = '    ';
+imgout.hdr.dime.cal_units = '        ';
+imgout.hdr.dime.unused1 = 0;
+imgout.hdr.dime.datatype = 2;
+imgout.hdr.dime.bitpix = 8;
+imgout.hdr.dime.dim_un0 = 0;
+imgout.hdr.dime.pixdim = [0 0.4688 1 0.4688 1 1 1 1];
+imgout.hdr.dime.vox_offset = 0;
+imgout.hdr.dime.roi_scale = 0.0039;
+imgout.hdr.dime.funused1 = 0;
+imgout.hdr.dime.funused2 = 0;
+imgout.hdr.dime.cal_max = 0;
+imgout.hdr.dime.cal_min = 0;
+imgout.hdr.dime.compressed = 0;
+imgout.hdr.dime.verified = 0;
+imgout.hdr.dime.glmax = 255;
+imgout.hdr.dime.glmin = 0;
+imgout.hdr.hist.descrip = '';
+imgout.hdr.hist.aux_file = '';
+imgout.hdr.hist.orient = 0;
+imgout.hdr.hist.originator = '';
+imgout.hdr.hist.generated = '';
+imgout.hdr.hist.scannum = '';
+imgout.hdr.hist.patient_id = '';
+imgout.hdr.hist.exp_date = '';
+imgout.hdr.hist.exp_time = '';
+imgout.hdr.hist.hist_un0 = '';
+imgout.hdr.hist.views = 0;
+imgout.hdr.hist.vols_added = 0;
+imgout.hdr.hist.start_field = 0;
+imgout.hdr.hist.field_skip = 0;
+imgout.hdr.hist.omax = 0;
+imgout.hdr.hist.omin = 0;
+imgout.hdr.hist.smax = 0;
+imgout.hdr.hist.smin = 0;
+imgout.fileprefix = '';
+imgout.img = [];
+end
+
+
+

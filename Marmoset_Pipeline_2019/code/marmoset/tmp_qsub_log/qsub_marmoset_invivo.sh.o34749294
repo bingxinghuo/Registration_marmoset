@@ -1,0 +1,146 @@
+Sun Jul 15 19:10:18 EDT 2018
+M851
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015b (8.6.0.267246) 64-bit (glnxa64)
+                              August 20, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+[Warning: Directory already exists.] 
+[> In MRI_alignment_maskcost_invivo_hybrid_bnb_atlasstsonly (line 25)] 
+[Warning: Directory already exists.] 
+[> In MRI_alignment_maskcost_invivo_hybrid_bnb_atlasstsonly (line 27)] 
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.03 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 1.34 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 1.20 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.67 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading sagittal unflipped orientation
+...done ( 2.25 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading sagittal unflipped orientation
+...done ( 2.51 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze int16 image format.
+...reading sagittal unflipped orientation
+...done ( 2.25 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze uchar image format.
+...reading sagittal unflipped orientation
+...done ( 2.23 sec).
+
+
+ans =
+
+     1   304
+
+
+ans =
+
+     1   308
+
+
+ans =
+
+   384   365   369
+
+{Matrix dimensions must agree.
+
+Error in slice_alignment_walk_withatlas_marmoset (line 379)
+        Eimatlas = sum(1./sigma_atlas_vec(3:end-2).^2 .* squeeze(sum(sum(
+        (TI_orig(:,:,slicenumbers) - atlas(:,:,slicenumbers)).^2
+        )))')*prod(dx)/2;
+
+Error in MRI_alignment_maskcost_invivo_hybrid_bnb_atlasstsonly (line 214)
+    [output,a,b,theta] = slice_alignment_walk_withatlas_marmoset(target,
+    atlasoutput.img, 'MSE', niter, a_old, b_old, theta_old,'linear',1);
+} 
+>> com.mathworks.util.ShutdownRuntimeException: Java is shutting down
+	at com.mathworks.services.Prefs.nativeGetPreferencesDirectory(Native Method)
+	at com.mathworks.services.Prefs.getPropertyDirectory(Prefs.java:198)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferenceUtils.resolveToPrefDir(MatlabKeyBindingPreferenceUtils.java:112)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferences.getModifiedDefaultFile(MatlabKeyBindingPreferences.java:213)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferences.resolveModifiedDefaultFilesFromPrefs(MatlabKeyBindingPreferences.java:116)
+	at com.mathworks.services.binding.MatlabKeyBindings.initializeFromPrefs(MatlabKeyBindings.java:717)
+	at com.mathworks.services.binding.MatlabKeyBindings.<clinit>(MatlabKeyBindings.java:590)
+	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:194)
+	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:190)
+	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions$1.<init>(DebuggerManager.java:97)
+	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions.<clinit>(DebuggerManager.java:97)
+	at com.mathworks.widgets.debug.DebuggerManager.getContinueAction(DebuggerManager.java:292)
+	at com.mathworks.matlabserver.worker.service.breakpoint.impl13b.DebuggerInstaller.<init>(DebuggerInstaller.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at com.mathworks.matlabserver.a.b.R(Unknown Source)
+	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
+	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
+	at com.mathworks.matlabserver.a.f.initialized(Unknown Source)
+	at com.mathworks.matlabserver.connectorcommon.b.b.run(Unknown Source)
+	at com.mathworks.matlabserver.connectorcommon.util.g.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Sun Jul 15 19:11:30 EDT 2018

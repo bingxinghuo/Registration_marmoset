@@ -1,0 +1,377 @@
+Thu Sep 13 23:21:43 EDT 2018
+M853
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015b (8.6.0.267246) 64-bit (glnxa64)
+                              August 20, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+0,20683388
+1,50241639
+2,4
+3,26
+4,10
+5,13
+6,9258
+7,18
+8,901
+9,112
+10,32
+11,257530
+12,157
+13,3
+14,96
+15,1
+16,88
+17,810
+18,18
+19,240
+20,129
+21,11585
+22,2
+23,40
+24,6
+25,18
+26,2
+27,2
+28,148
+29,384
+30,6796
+31,2615
+32,9639
+33,3670
+34,576
+35,164
+36,190
+37,174
+38,118
+39,13290
+40,12
+41,26
+42,6
+43,57754
+44,955
+45,61
+46,68
+47,15066
+48,206
+49,18
+50,90
+51,187
+52,2
+53,64
+54,8
+55,4
+56,3
+57,4
+58,10
+59,162
+60,202
+61,86
+62,1
+63,80
+64,12
+65,10
+66,4
+67,352
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.02 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.88 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.01 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.37 sec).
+
+[Warning: Directory already exists.] 
+[> In fluoroSTS_marmoset (line 15)] 
+[Warning: Directory already exists.] 
+[> In fluoroSTS_marmoset (line 17)] 
+
+nissl = 
+
+           hdr: [1x1 struct]
+    fileprefix: '/sonas-hs/mitra/hpc/home/blee/data/registration/M853/fluo...'
+           img: [375x410x409 double]
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 5.34 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.03 sec).
+
+Traceback (most recent call last):
+  File "/sonas-hs/mitra/hpc/home/blee/code/maskBySlice_input.py", line 43, in <module>
+    mymask = ndreg3D.imgMakeMask(refImg,threshold=inflectionpoint)
+  File "/mnt/grid/mitra/hpc/home/data/blee/code/ndreg3D.py", line 144, in imgMakeMask
+    tmpMask = sitk.BinaryThreshold(inImg, 0, threshold, 0, forgroundValue)
+  File "/sonas-hs/mitra/hpc/home/blee/.local/lib/python2.7/site-packages/SimpleITK/SimpleITK.py", line 16782, in BinaryThreshold
+    return _SimpleITK.BinaryThreshold(image1, lowerThreshold, upperThreshold, insideValue, outsideValue)
+TypeError: in method 'BinaryThreshold', argument 3 of type 'double'
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 1.00 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.77 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 5.41 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.00 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 5.33 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.00 sec).
+
+[Warning: Name is nonexistent or not a directory:
+/cis/home/dtward/Functions/interp] 
+[> In path (line 109)
+  In addpath (line 88)
+  In slice_alignment_walk_withatlas_fluoro (line 29)
+  In fluoroSTS_marmoset (line 131)] 
+[Warning: Name is nonexistent or not a directory:
+/cis/home/dtward/Functions/avwQuiet] 
+[> In path (line 109)
+  In addpath (line 88)
+  In slice_alignment_walk_withatlas_fluoro (line 30)
+  In fluoroSTS_marmoset (line 131)] 
+iter: 1, cost: 44467208, im_t = 10223.8301, im_a = 44456982.6894, regxy = 0, regt = 0, ep = 2.5e-06, 5.72e-07
+iter: 2, cost: 44466348, im_t = 9652.5322, im_a = 44456694.5757, regxy = 1.1271e-07, regt = 0, ep = 2.6e-06, 5.72e-07
+iter: 3, cost: 44465596, im_t = 9587.1338, im_a = 44456007.125, regxy = 1.1271e-07, regt = 8.9539e-06, ep = 2.6e-06, 5.9488e-07
+iter: 4, cost: 44464820, im_t = 9104.4697, im_a = 44455714.4218, regxy = 4.3575e-07, regt = 8.9539e-06, ep = 2.704e-06, 5.9488e-07
+iter: 5, cost: 44464084, im_t = 9087.626, im_a = 44454996.0665, regxy = 4.3575e-07, regt = 3.5181e-05, ep = 2.704e-06, 6.1868e-07
+iter: 6, cost: 44463376, im_t = 8677.376, im_a = 44454699.0341, regxy = 9.5052e-07, regt = 3.5181e-05, ep = 2.8122e-06, 6.1868e-07
+iter: 7, cost: 44462616, im_t = 8671.2598, im_a = 44453945.3167, regxy = 9.5052e-07, regt = 8.0617e-05, ep = 2.8122e-06, 6.4342e-07
+iter: 8, cost: 44461968, im_t = 8327.4385, im_a = 44453642.5005, regxy = 1.6401e-06, regt = 8.0617e-05, ep = 2.9246e-06, 6.4342e-07
+iter: 9, cost: 44461176, im_t = 8324.9951, im_a = 44452849.6801, regxy = 1.6401e-06, regt = 0.0001479, ep = 2.9246e-06, 6.6916e-07
+iter: 10, cost: 44460580, im_t = 8039.1172, im_a = 44452540.9074, regxy = 2.4902e-06, regt = 0.0001479, ep = 3.0416e-06, 6.6916e-07
+iter: 11, cost: 44459744, im_t = 8039.1157, im_a = 44451705.5614, regxy = 2.4902e-06, regt = 0.00024003, ep = 3.0416e-06, 6.9593e-07
+iter: 12, cost: 44459192, im_t = 7801.5137, im_a = 44451390.4628, regxy = 3.4891e-06, regt = 0.00024003, ep = 3.1633e-06, 6.9593e-07
+iter: 13, cost: 44458308, im_t = 7802.5708, im_a = 44450507.1721, regxy = 3.4891e-06, regt = 0.00036039, ep = 3.1633e-06, 7.2376e-07
+iter: 14, cost: 44457792, im_t = 7606.2036, im_a = 44450185.0899, regxy = 4.6284e-06, regt = 0.00036039, ep = 3.2898e-06, 7.2376e-07
+iter: 15, cost: 44456860, im_t = 7608.6855, im_a = 44449250.9148, regxy = 4.6284e-06, regt = 0.00051275, ep = 3.2898e-06, 7.5271e-07
+iter: 16, cost: 44456368, im_t = 7446.6929, im_a = 44448921.805, regxy = 5.9031e-06, regt = 0.00051275, ep = 3.4214e-06, 7.5271e-07
+iter: 17, cost: 44455384, im_t = 7450.1304, im_a = 44447932.2717, regxy = 5.9031e-06, regt = 0.00070134, ep = 3.4214e-06, 7.8282e-07
+iter: 18, cost: 44454912, im_t = 7316.2505, im_a = 44447595.9589, regxy = 7.3122e-06, regt = 0.00070134, ep = 3.5583e-06, 7.8282e-07
+iter: 19, cost: 44453868, im_t = 7320.8413, im_a = 44446548.14, regxy = 7.3122e-06, regt = 0.00093077, ep = 3.5583e-06, 8.1413e-07
+iter: 20, cost: 44453412, im_t = 7209.4229, im_a = 44446203.9882, regxy = 8.8592e-06, regt = 0.00093077, ep = 3.7006e-06, 8.1413e-07
+iter: 21, cost: 44452312, im_t = 7215.0156, im_a = 44445097.1421, regxy = 8.8592e-06, regt = 0.0012059, ep = 3.7006e-06, 8.467e-07
+iter: 22, cost: 44451864, im_t = 7121.3169, im_a = 44444744.1101, regxy = 1.0551e-05, regt = 0.0012059, ep = 3.8486e-06, 8.467e-07
+iter: 23, cost: 44450708, im_t = 7127.9399, im_a = 44443579.5492, regxy = 1.0551e-05, regt = 0.001532, ep = 3.8486e-06, 8.8057e-07
+iter: 24, cost: 44450264, im_t = 7048.105, im_a = 44443216.7767, regxy = 1.2399e-05, regt = 0.001532, ep = 4.0026e-06, 8.8057e-07
+iter: 25, cost: 44449048, im_t = 7055.7881, im_a = 44441992.364, regxy = 1.2399e-05, regt = 0.0019146, ep = 4.0026e-06, 9.1579e-07
+iter: 26, cost: 44448608, im_t = 6987.6826, im_a = 44441618.3678, regxy = 1.4416e-05, regt = 0.0019146, ep = 4.1627e-06, 9.1579e-07
+iter: 27, cost: 44447324, im_t = 6996.1846, im_a = 44440329.3546, regxy = 1.4416e-05, regt = 0.0023603, ep = 4.1627e-06, 9.5242e-07
+iter: 28, cost: 44446880, im_t = 6936.9648, im_a = 44439942.1449, regxy = 1.6623e-05, regt = 0.0023603, ep = 4.3292e-06, 9.5242e-07
+iter: 29, cost: 44445528, im_t = 6946.0522, im_a = 44438582.9081, regxy = 1.6623e-05, regt = 0.0028763, ep = 4.3292e-06, 9.9052e-07
+iter: 30, cost: 44445076, im_t = 6893.9448, im_a = 44438181.3927, regxy = 1.9038e-05, regt = 0.0028763, ep = 4.5024e-06, 9.9052e-07
+iter: 31, cost: 44443648, im_t = 6903.2651, im_a = 44436743.8184, regxy = 1.9038e-05, regt = 0.0034714, ep = 4.5024e-06, 1.0301e-06
+iter: 32, cost: 44443184, im_t = 6856.7041, im_a = 44436327.1415, regxy = 2.1686e-05, regt = 0.0034714, ep = 4.6825e-06, 1.0301e-06
+iter: 33, cost: 44441672, im_t = 6865.9385, im_a = 44434805.0303, regxy = 2.1686e-05, regt = 0.0041555, ep = 4.6825e-06, 1.0713e-06
+iter: 34, cost: 44441196, im_t = 6823.9414, im_a = 44434370.8225, regxy = 2.4591e-05, regt = 0.0041555, ep = 4.8698e-06, 1.0713e-06
+iter: 35, cost: 44439584, im_t = 6833.2783, im_a = 44432750.5097, regxy = 2.4591e-05, regt = 0.0049407, ep = 4.8698e-06, 1.1142e-06
+iter: 36, cost: 44439092, im_t = 6795.2012, im_a = 44432297.6211, regxy = 2.7779e-05, regt = 0.0049407, ep = 5.0645e-06, 1.1142e-06
+iter: 37, cost: 44437364, im_t = 6804.167, im_a = 44430559.7161, regxy = 2.7779e-05, regt = 0.0058418, ep = 5.0645e-06, 1.1588e-06
+iter: 38, cost: 44436852, im_t = 6769.458, im_a = 44430084.151, regxy = 3.1282e-05, regt = 0.0058418, ep = 5.2671e-06, 1.1588e-06
+iter: 39, cost: 44434980, im_t = 6779.3721, im_a = 44428202.0301, regxy = 3.1282e-05, regt = 0.0068754, ep = 5.2671e-06, 1.2051e-06
+iter: 40, cost: 44434444, im_t = 6747.4771, im_a = 44427696.7205, regxy = 3.5145e-05, regt = 0.0068754, ep = 5.4778e-06, 1.2051e-06
+iter: 41, cost: 44432416, im_t = 6757.9053, im_a = 44425657.8566, regxy = 3.5145e-05, regt = 0.0080571, ep = 5.4778e-06, 1.2533e-06
+iter: 42, cost: 44431844, im_t = 6728.1567, im_a = 44425114.4415, regxy = 3.9429e-05, regt = 0.0080571, ep = 5.6969e-06, 1.2533e-06
+iter: 43, cost: 44429660, im_t = 6749.0063, im_a = 44422910.9938, regxy = 3.9429e-05, regt = 0.0093995, ep = 5.6969e-06, 1.3035e-06
+iter: 44, cost: 44429040, im_t = 6721.1445, im_a = 44422319.3397, regxy = 4.4205e-05, regt = 0.0093995, ep = 5.9248e-06, 1.3035e-06
+iter: 45, cost: 44426744, im_t = 6769.9766, im_a = 44419975.4469, regxy = 4.4205e-05, regt = 0.010911, ep = 5.9248e-06, 1.3556e-06
+iter: 46, cost: 44426064, im_t = 6742.043, im_a = 44419320.8469, regxy = 4.9555e-05, regt = 0.010911, ep = 6.1618e-06, 1.3556e-06
+iter: 47, cost: 44423716, im_t = 6864.7324, im_a = 44416851.7258, regxy = 4.9555e-05, regt = 0.012592, ep = 6.1618e-06, 1.4098e-06
+iter: 48, cost: 44422956, im_t = 6836.2891, im_a = 44416118.9268, regxy = 5.5564e-05, regt = 0.012592, ep = 6.4083e-06, 1.4098e-06
+iter: 49, cost: 44420580, im_t = 6872.2051, im_a = 44413709.1226, regxy = 5.5564e-05, regt = 0.014384, ep = 6.4083e-06, 1.4662e-06
+iter: 50, cost: 44419740, im_t = 6843.2788, im_a = 44412898.5425, regxy = 6.2296e-05, regt = 0.014384, ep = 6.6646e-06, 1.4662e-06
+iter: 51, cost: 44417616, im_t = 6939.5796, im_a = 44410677.0939, regxy = 6.2296e-05, regt = 0.016136, ep = 6.6646e-06, 1.5249e-06
+iter: 52, cost: 44416736, im_t = 6911.2466, im_a = 44409825.8117, regxy = 6.9752e-05, regt = 0.016136, ep = 6.9312e-06, 1.5249e-06
+iter: 53, cost: 44414776, im_t = 6909.9956, im_a = 44407865.0069, regxy = 6.9752e-05, regt = 0.017781, ep = 6.9312e-06, 1.5859e-06
+iter: 54, cost: 44413868, im_t = 6880.6436, im_a = 44406985.8731, regxy = 7.7974e-05, regt = 0.017781, ep = 7.2084e-06, 1.5859e-06
+iter: 55, cost: 44412372, im_t = 7132.123, im_a = 44405241.1209, regxy = 7.7974e-05, regt = 0.019296, ep = 7.2084e-06, 1.6493e-06
+iter: 56, cost: 44411448, im_t = 7097.6606, im_a = 44404349.9483, regxy = 8.6882e-05, regt = 0.019296, ep = 7.4968e-06, 1.6493e-06
+iter: 57, cost: 44410360, im_t = 7610.9653, im_a = 44402750.1681, regxy = 8.6882e-05, regt = 0.020797, ep = 7.4968e-06, 1.7153e-06
+iter: 58, cost: 44409432, im_t = 7566.0337, im_a = 44401864.4258, regxy = 9.64e-05, regt = 0.020797, ep = 7.7966e-06, 1.7153e-06
+iter: 59, cost: 44409760, im_t = 8850.0879, im_a = 44400911.3881, regxy = 9.64e-05, regt = 0.022346, ep = 7.7966e-06, 1.7153e-06
+iter: 60, cost: 44408820, im_t = 8799.2354, im_a = 44400019.7545, regxy = 0.00010655, regt = 0.022346, ep = 8.1085e-06, 1.7153e-06
+iter: 61, cost: 44408972, im_t = 9507.4941, im_a = 44399464.4738, regxy = 0.00010655, regt = 0.023683, ep = 8.1085e-06, 1.7153e-06
+iter: 62, cost: 44408004, im_t = 9454.4326, im_a = 44398548.4844, regxy = 0.00011737, regt = 0.023683, ep = 8.4328e-06, 1.7153e-06
+iter: 63, cost: 44407992, im_t = 10039.7852, im_a = 44397950.8777, regxy = 0.00011737, regt = 0.024799, ep = 8.4328e-06, 1.7839e-06
+iter: 64, cost: 44407012, im_t = 9984.4209, im_a = 44397028.2512, regxy = 0.00012869, regt = 0.024799, ep = 8.7701e-06, 1.7839e-06
+iter: 65, cost: 44407252, im_t = 10563.6191, im_a = 44396689.1283, regxy = 0.00012869, regt = 0.02574, ep = 8.7701e-06, 1.7839e-06
+iter: 66, cost: 44406284, im_t = 10496.1387, im_a = 44395788.2038, regxy = 0.0001404, regt = 0.02574, ep = 9.121e-06, 1.7839e-06
+iter: 67, cost: 44406692, im_t = 11234.127, im_a = 44395456.9058, regxy = 0.0001404, regt = 0.026559, ep = 9.121e-06, 1.7839e-06
+iter: 68, cost: 44405760, im_t = 11157.9521, im_a = 44394603.7588, regxy = 0.00015214, regt = 0.026559, ep = 9.4858e-06, 1.7839e-06
+iter: 69, cost: 44406484, im_t = 11891.665, im_a = 44394590.6451, regxy = 0.00015214, regt = 0.027231, ep = 9.4858e-06, 1.7839e-06
+iter: 70, cost: 44405620, im_t = 11801.8838, im_a = 44393818.8038, regxy = 0.00016365, regt = 0.027231, ep = 9.8652e-06, 1.7839e-06
+iter: 71, cost: 44406004, im_t = 12350.1924, im_a = 44393655.4218, regxy = 0.00016365, regt = 0.027878, ep = 9.8652e-06, 1.7839e-06
+iter: 72, cost: 44405204, im_t = 12252.7354, im_a = 44392951.98, regxy = 0.00017484, regt = 0.027878, ep = 1.026e-05, 1.7839e-06
+iter: 73, cost: 44405076, im_t = 12479.7236, im_a = 44392595.0411, regxy = 0.00017484, regt = 0.028503, ep = 1.026e-05, 1.8552e-06
+iter: 74, cost: 44404280, im_t = 12357.5371, im_a = 44391924.2337, regxy = 0.00018603, regt = 0.028503, ep = 1.067e-05, 1.8552e-06
+iter: 75, cost: 44405836, im_t = 13685.9141, im_a = 44392149.4465, regxy = 0.00018603, regt = 0.029106, ep = 1.067e-05, 1.8552e-06
+iter: 76, cost: 44405068, im_t = 13536.6289, im_a = 44391531.6964, regxy = 0.00019666, regt = 0.029106, ep = 1.067e-05, 1.8552e-06
+iter: 77, cost: 44403832, im_t = 13063.2607, im_a = 44390767.0285, regxy = 0.00019666, regt = 0.029701, ep = 1.067e-05, 1.9294e-06
+iter: 78, cost: 44403076, im_t = 12898.7236, im_a = 44390176.2193, regxy = 0.00020702, regt = 0.029701, ep = 1.1097e-05, 1.9294e-06
+iter: 79, cost: 44405304, im_t = 14537.2959, im_a = 44390764.9979, regxy = 0.00020702, regt = 0.030282, ep = 1.1097e-05, 1.9294e-06
+iter: 80, cost: 44404572, im_t = 14365.9365, im_a = 44390205.0435, regxy = 0.00021683, regt = 0.030282, ep = 1.1097e-05, 1.9294e-06
+iter: 81, cost: 44402708, im_t = 13469.249, im_a = 44389238.4562, regxy = 0.00021683, regt = 0.030853, ep = 1.1097e-05, 2.0066e-06
+iter: 82, cost: 44401980, im_t = 13277.7432, im_a = 44388702.6832, regxy = 0.00022643, regt = 0.030853, ep = 1.1541e-05, 2.0066e-06
+iter: 83, cost: 44405104, im_t = 15425.9131, im_a = 44389677.6049, regxy = 0.00022643, regt = 0.031468, ep = 1.1541e-05, 2.0066e-06
+iter: 84, cost: 44404368, im_t = 15227.6064, im_a = 44389141.9446, regxy = 0.00023561, regt = 0.031468, ep = 1.1541e-05, 2.0066e-06
+iter: 85, cost: 44402092, im_t = 14067.8027, im_a = 44388022.5577, regxy = 0.00023561, regt = 0.031995, ep = 1.1541e-05, 2.0066e-06
+iter: 86, cost: 44401348, im_t = 13844.8643, im_a = 44387503.1344, regxy = 0.00024478, regt = 0.031995, ep = 1.2003e-05, 2.0066e-06
+iter: 87, cost: 44403780, im_t = 15481.8994, im_a = 44388297.1018, regxy = 0.00024478, regt = 0.03254, ep = 1.2003e-05, 2.0066e-06
+iter: 88, cost: 44403024, im_t = 15266.7129, im_a = 44387758.0233, regxy = 0.00025368, regt = 0.03254, ep = 1.2003e-05, 2.0066e-06
+iter: 89, cost: 44401208, im_t = 14401.79, im_a = 44386807.9541, regxy = 0.00025368, regt = 0.032998, ep = 1.2003e-05, 2.0869e-06
+iter: 90, cost: 44400456, im_t = 14157.6221, im_a = 44386298.8894, regxy = 0.00026263, regt = 0.032998, ep = 1.2483e-05, 2.0869e-06
+iter: 91, cost: 44404300, im_t = 16666.9043, im_a = 44387634.0749, regxy = 0.00026263, regt = 0.033623, ep = 1.2483e-05, 2.0869e-06
+iter: 92, cost: 44403520, im_t = 16414.0488, im_a = 44387105.1583, regxy = 0.00027121, regt = 0.033623, ep = 1.2483e-05, 2.0869e-06
+iter: 93, cost: 44401032, im_t = 15124.0098, im_a = 44385906.4991, regxy = 0.00027121, regt = 0.034057, ep = 1.2483e-05, 2.0869e-06
+iter: 94, cost: 44400240, im_t = 14833.1025, im_a = 44385408.266, regxy = 0.00027994, regt = 0.034057, ep = 1.2982e-05, 2.0869e-06
+iter: 95, cost: 44403116, im_t = 16680.6152, im_a = 44386436.6428, regxy = 0.00027994, regt = 0.034609, ep = 1.2982e-05, 2.0869e-06
+iter: 96, cost: 44402300, im_t = 16389.6328, im_a = 44385908.6932, regxy = 0.00028838, regt = 0.034609, ep = 1.2982e-05, 2.0869e-06
+iter: 97, cost: 44400912, im_t = 15818.7266, im_a = 44385093.582, regxy = 0.00028838, regt = 0.03503, ep = 1.2982e-05, 2.0869e-06
+iter: 98, cost: 44400060, im_t = 15484.1289, im_a = 44384577.1609, regxy = 0.00029715, regt = 0.03503, ep = 1.3501e-05, 2.0869e-06
+iter: 99, cost: 44402668, im_t = 17150.6738, im_a = 44385518.8241, regxy = 0.00029715, regt = 0.035624, ep = 1.3501e-05, 2.0869e-06
+iter: 100, cost: 44401780, im_t = 16810.4082, im_a = 44384969.7621, regxy = 0.00030551, regt = 0.035624, ep = 1.3501e-05, 2.0869e-06
+iter: 101, cost: 44400188, im_t = 16124.3975, im_a = 44384064.6476, regxy = 0.00030551, regt = 0.036038, ep = 1.3501e-05, 2.0869e-06
+iter: 102, cost: 44399288, im_t = 15756.1699, im_a = 44383531.4628, regxy = 0.00031426, regt = 0.036038, ep = 1.4041e-05, 2.0869e-06
+iter: 103, cost: 44401704, im_t = 17303.4746, im_a = 44384400.1676, regxy = 0.00031426, regt = 0.036601, ep = 1.4041e-05, 2.0869e-06
+iter: 104, cost: 44400776, im_t = 16945.7637, im_a = 44383828.3209, regxy = 0.0003227, regt = 0.036601, ep = 1.4041e-05, 2.0869e-06
+iter: 105, cost: 44399012, im_t = 16148.4414, im_a = 44382862.2911, regxy = 0.0003227, regt = 0.036964, ep = 1.4041e-05, 2.1703e-06
+iter: 106, cost: 44398072, im_t = 15758.6738, im_a = 44382314.1125, regxy = 0.00033153, regt = 0.036964, ep = 1.4603e-05, 2.1703e-06
+iter: 107, cost: 44402780, im_t = 18766.5352, im_a = 44384012.3733, regxy = 0.00033153, regt = 0.03767, ep = 1.4603e-05, 2.1703e-06
+iter: 108, cost: 44401816, im_t = 18372.9414, im_a = 44383443.6079, regxy = 0.00033983, regt = 0.03767, ep = 1.4603e-05, 2.1703e-06
+iter: 109, cost: 44398832, im_t = 16961.5449, im_a = 44381871.5495, regxy = 0.00033983, regt = 0.038008, ep = 1.4603e-05, 2.1703e-06
+iter: 110, cost: 44397832, im_t = 16528.6875, im_a = 44381304.2807, regxy = 0.00034868, regt = 0.038008, ep = 1.5187e-05, 2.1703e-06
+iter: 111, cost: 44401248, im_t = 18709.2852, im_a = 44382539.0108, regxy = 0.00034868, regt = 0.038556, ep = 1.5187e-05, 2.1703e-06
+iter: 112, cost: 44400224, im_t = 18285.2324, im_a = 44381938.5731, regxy = 0.00035695, regt = 0.038556, ep = 1.5187e-05, 2.1703e-06
+iter: 113, cost: 44398676, im_t = 17697.125, im_a = 44380976.9666, regxy = 0.00035695, regt = 0.038905, ep = 1.5187e-05, 2.1703e-06
+iter: 114, cost: 44397684, im_t = 17236.8379, im_a = 44380446.925, regxy = 0.00036538, regt = 0.038905, ep = 1.5795e-05, 2.1703e-06
+iter: 115, cost: 44401192, im_t = 19457.1758, im_a = 44381733.1061, regxy = 0.00036538, regt = 0.039458, ep = 1.5795e-05, 2.1703e-06
+iter: 116, cost: 44400224, im_t = 19018.916, im_a = 44381203.9176, regxy = 0.00037301, regt = 0.039458, ep = 1.5795e-05, 2.1703e-06
+iter: 117, cost: 44398268, im_t = 18069.5527, im_a = 44380199.3452, regxy = 0.00037301, regt = 0.039596, ep = 1.5795e-05, 2.1703e-06
+iter: 118, cost: 44397328, im_t = 17597.1836, im_a = 44379732.6144, regxy = 0.00038055, regt = 0.039596, ep = 1.6426e-05, 2.1703e-06
+iter: 119, cost: 44400196, im_t = 19301.7949, im_a = 44380892.7795, regxy = 0.00038055, regt = 0.039973, ep = 1.6426e-05, 2.1703e-06
+iter: 120, cost: 44399280, im_t = 18846.4551, im_a = 44380433.8317, regxy = 0.00038715, regt = 0.039973, ep = 1.6426e-05, 2.1703e-06
+iter: 121, cost: 44397816, im_t = 18183.4512, im_a = 44379633.2469, regxy = 0.00038715, regt = 0.040077, ep = 1.6426e-05, 2.1703e-06
+iter: 122, cost: 44396920, im_t = 17691.6445, im_a = 44379230.21, regxy = 0.00039341, regt = 0.040077, ep = 1.7083e-05, 2.1703e-06
+iter: 123, cost: 44399804, im_t = 19423.2422, im_a = 44380380.1265, regxy = 0.00039341, regt = 0.040453, ep = 1.7083e-05, 2.1703e-06
+iter: 124, cost: 44398872, im_t = 18938.4375, im_a = 44379933.9697, regxy = 0.0003991, regt = 0.040453, ep = 1.7083e-05, 2.1703e-06
+iter: 125, cost: 44396448, im_t = 17753.7031, im_a = 44378694.5624, regxy = 0.0003991, regt = 0.040535, ep = 1.7083e-05, 2.2572e-06
+iter: 126, cost: 44395536, im_t = 17253.2773, im_a = 44378283.0922, regxy = 0.0004048, regt = 0.040535, ep = 1.7767e-05, 2.2572e-06
+iter: 127, cost: 44401408, im_t = 20794.7344, im_a = 44380611.5728, regxy = 0.0004048, regt = 0.041015, ep = 1.7767e-05, 2.2572e-06
+iter: 128, cost: 44400436, im_t = 20285.2363, im_a = 44380152.1272, regxy = 0.00040993, regt = 0.041015, ep = 1.7767e-05, 2.2572e-06
+iter: 129, cost: 44397808, im_t = 18776.1504, im_a = 44379031.0807, regxy = 0.00040993, regt = 0.041108, ep = 1.7767e-05, 2.2572e-06
+iter: 130, cost: 44396860, im_t = 18213.6914, im_a = 44378645.7457, regxy = 0.0004148, regt = 0.041108, ep = 1.7767e-05, 2.2572e-06
+iter: 131, cost: 44400336, im_t = 20467.0234, im_a = 44379868.2784, regxy = 0.0004148, regt = 0.041406, ep = 1.7767e-05, 2.2572e-06
+iter: 132, cost: 44399372, im_t = 19936.9375, im_a = 44379436.2887, regxy = 0.00041921, regt = 0.041406, ep = 1.7767e-05, 2.2572e-06
+iter: 133, cost: 44397552, im_t = 18973.4844, im_a = 44378579.3476, regxy = 0.00041921, regt = 0.041499, ep = 1.7767e-05, 2.2572e-06
+iter: 134, cost: 44396656, im_t = 18447.5215, im_a = 44378207.5794, regxy = 0.00042395, regt = 0.041499, ep = 1.7767e-05, 2.2572e-06
+iter: 135, cost: 44399528, im_t = 20279.6445, im_a = 44379249.0932, regxy = 0.00042395, regt = 0.041809, ep = 1.7767e-05, 2.2572e-06
+iter: 136, cost: 44398576, im_t = 19752.8926, im_a = 44378822.7063, regxy = 0.0004281, regt = 0.041809, ep = 1.7767e-05, 2.2572e-06
+iter: 137, cost: 44398392, im_t = 19778.0508, im_a = 44378615.3263, regxy = 0.0004281, regt = 0.041973, ep = 1.7767e-05, 2.2572e-06
+iter: 138, cost: 44397488, im_t = 19239.2754, im_a = 44378247.3417, regxy = 0.00043246, regt = 0.041973, ep = 1.7767e-05, 2.2572e-06
+reducing epsilontheta to 1.5048e-06
+iter: 139, cost: 44395536, im_t = 17253.2773, im_a = 44378283.0922, regxy = 0.0004048, regt = 0.040535, ep = 1.7767e-05, 1.5048e-06
+iter: 140, cost: 44395288, im_t = 17192.5039, im_a = 44378094.5966, regxy = 0.00041048, regt = 0.040535, ep = 1.8477e-05, 1.5048e-06
+iter: 141, cost: 44385280, im_t = 11166.6729, im_a = 44374111.7234, regxy = 0.00041048, regt = 0.040359, ep = 1.8477e-05, 1.565e-06
+iter: 142, cost: 44384504, im_t = 10771.6055, im_a = 44373733.6133, regxy = 0.0004166, regt = 0.040359, ep = 1.9216e-05, 1.565e-06
+iter: 143, cost: 44385616, im_t = 11640.3672, im_a = 44373974.4648, regxy = 0.0004166, regt = 0.040283, ep = 1.9216e-05, 1.565e-06
+iter: 144, cost: 44385032, im_t = 11319.6123, im_a = 44373710.5334, regxy = 0.00042149, regt = 0.040283, ep = 1.9216e-05, 1.565e-06
+iter: 145, cost: 44388376, im_t = 13364.6895, im_a = 44375009.863, regxy = 0.00042149, regt = 0.040442, ep = 1.9216e-05, 1.565e-06
+iter: 146, cost: 44387896, im_t = 13125.6826, im_a = 44374771.8229, regxy = 0.00042575, regt = 0.040442, ep = 1.9216e-05, 1.565e-06
+iter: 147, cost: 44387272, im_t = 12894.7666, im_a = 44374378.0431, regxy = 0.00042575, regt = 0.040549, ep = 1.9216e-05, 1.565e-06
+iter: 148, cost: 44386880, im_t = 12672.0312, im_a = 44374207.5419, regxy = 0.00043034, regt = 0.040549, ep = 1.9216e-05, 1.565e-06
+iter: 149, cost: 44388612, im_t = 13752.1084, im_a = 44374857.9284, regxy = 0.00043034, regt = 0.040733, ep = 1.9216e-05, 1.565e-06
+iter: 150, cost: 44388156, im_t = 13518.3408, im_a = 44374636.0664, regxy = 0.00043395, regt = 0.040733, ep = 1.9216e-05, 1.565e-06
+iter: 151, cost: 44387400, im_t = 13232.8789, im_a = 44374166.0239, regxy = 0.00043395, regt = 0.040834, ep = 1.9216e-05, 1.565e-06
+iter: 152, cost: 44386980, im_t = 12981.3779, im_a = 44373998.9423, regxy = 0.00043801, regt = 0.040834, ep = 1.9216e-05, 1.565e-06
+reducing epsilontheta to 1.0433e-06
+iter: 153, cost: 44384504, im_t = 10771.6055, im_a = 44373733.6133, regxy = 0.0004166, regt = 0.040359, ep = 1.9216e-05, 1.0433e-06
+iter: 154, cost: 44384164, im_t = 10651.375, im_a = 44373513.2, regxy = 0.00042215, regt = 0.040359, ep = 1.9985e-05, 1.0433e-06
+iter: 155, cost: 44379188, im_t = 7927.3857, im_a = 44371261.4396, regxy = 0.00042215, regt = 0.040195, ep = 1.9985e-05, 1.085e-06
+iter: 156, cost: 44378964, im_t = 7819.2583, im_a = 44371143.5257, regxy = 0.00042725, regt = 0.040195, ep = 2.0785e-05, 1.085e-06
+iter: 157, cost: 44379428, im_t = 8176.2847, im_a = 44371252.8172, regxy = 0.00042725, regt = 0.040147, ep = 2.0785e-05, 1.085e-06
+iter: 158, cost: 44379276, im_t = 8121.3862, im_a = 44371153.558, regxy = 0.00043188, regt = 0.040147, ep = 2.0785e-05, 1.085e-06
+iter: 159, cost: 44380200, im_t = 8740.9199, im_a = 44371459.4669, regxy = 0.00043188, regt = 0.040206, ep = 2.0785e-05, 1.085e-06
+iter: 160, cost: 44380128, im_t = 8703.9082, im_a = 44371424.1694, regxy = 0.00043524, regt = 0.040206, ep = 2.0785e-05, 1.085e-06
+iter: 161, cost: 44380776, im_t = 9134.1113, im_a = 44371643.7599, regxy = 0.00043524, regt = 0.040308, ep = 2.0785e-05, 1.085e-06
+iter: 162, cost: 44380572, im_t = 9051.1514, im_a = 44371521.9, regxy = 0.00043909, regt = 0.040308, ep = 2.0785e-05, 1.085e-06
+reducing epsilontheta to 7.2336e-07
+iter: 163, cost: 44378964, im_t = 7819.2583, im_a = 44371143.5257, regxy = 0.00042725, regt = 0.040195, ep = 2.0785e-05, 7.2336e-07
+iter: 164, cost: 44378868, im_t = 7811.6406, im_a = 44371054.8544, regxy = 0.00043171, regt = 0.040195, ep = 2.1616e-05, 7.2336e-07
+iter: 165, cost: 44377664, im_t = 7183.7144, im_a = 44370478.8554, regxy = 0.00043171, regt = 0.040157, ep = 2.1616e-05, 7.523e-07
+iter: 166, cost: 44377844, im_t = 7307.0435, im_a = 44370536.7217, regxy = 0.00043582, regt = 0.040157, ep = 2.1616e-05, 7.523e-07
+iter: 167, cost: 44377628, im_t = 7247.3403, im_a = 44370380.8709, regxy = 0.00043582, regt = 0.040156, ep = 2.1616e-05, 7.8239e-07
+iter: 168, cost: 44377984, im_t = 7489.8018, im_a = 44370495.2171, regxy = 0.00043952, regt = 0.040156, ep = 2.1616e-05, 7.8239e-07
+iter: 169, cost: 44377900, im_t = 7479.4292, im_a = 44370419.2981, regxy = 0.00043952, regt = 0.040197, ep = 2.1616e-05, 7.8239e-07
+iter: 170, cost: 44378048, im_t = 7574.0444, im_a = 44370474.4597, regxy = 0.0004433, regt = 0.040197, ep = 2.1616e-05, 7.8239e-07
+iter: 171, cost: 44377928, im_t = 7554.9023, im_a = 44370373.1093, regxy = 0.0004433, regt = 0.040264, ep = 2.1616e-05, 7.8239e-07
+iter: 172, cost: 44378448, im_t = 7842.7749, im_a = 44370604.5555, regxy = 0.00044608, regt = 0.040264, ep = 2.1616e-05, 7.8239e-07
+iter: 173, cost: 44378352, im_t = 7827.5483, im_a = 44370523.972, regxy = 0.00044608, regt = 0.040337, ep = 2.1616e-05, 7.8239e-07
+reducing epsilonxy to 1.4411e-05
+iter: 174, cost: 44377628, im_t = 7247.3403, im_a = 44370380.8709, regxy = 0.00043582, regt = 0.040156, ep = 1.4411e-05, 7.8239e-07
+iter: 175, cost: 44377540, im_t = 7234.9565, im_a = 44370305.3577, regxy = 0.00043582, regt = 0.040198, ep = 1.4411e-05, 8.1368e-07
+iter: 176, cost: 44377084, im_t = 7017.3315, im_a = 44370066.9211, regxy = 0.00043767, regt = 0.040198, ep = 1.4987e-05, 8.1368e-07
+iter: 177, cost: 44377064, im_t = 7066.0518, im_a = 44369999.7733, regxy = 0.00043767, regt = 0.040259, ep = 1.4987e-05, 8.4623e-07
+iter: 178, cost: 44376940, im_t = 7004.4185, im_a = 44369936.5525, regxy = 0.00043995, regt = 0.040259, ep = 1.5587e-05, 8.4623e-07
+iter: 179, cost: 44377080, im_t = 7127.2402, im_a = 44369954.5897, regxy = 0.00043995, regt = 0.040337, ep = 1.5587e-05, 8.4623e-07
+iter: 180, cost: 44376992, im_t = 7091.729, im_a = 44369900.0834, regxy = 0.00044255, regt = 0.040337, ep = 1.5587e-05, 8.4623e-07
+iter: 181, cost: 44377108, im_t = 7214.6606, im_a = 44369893.6628, regxy = 0.00044255, regt = 0.040414, ep = 1.5587e-05, 8.4623e-07
+iter: 182, cost: 44376972, im_t = 7158.8369, im_a = 44369813.6029, regxy = 0.00044462, regt = 0.040414, ep = 1.5587e-05, 8.4623e-07
+iter: 183, cost: 44377084, im_t = 7258.8467, im_a = 44369824.4649, regxy = 0.00044462, regt = 0.040489, ep = 1.5587e-05, 8.4623e-07
+iter: 184, cost: 44376956, im_t = 7198.4648, im_a = 44369756.0382, regxy = 0.00044709, regt = 0.040489, ep = 1.5587e-05, 8.4623e-07
+reducing epsilontheta to 5.6415e-07
+iter: 185, cost: 44376940, im_t = 7004.4185, im_a = 44369936.5525, regxy = 0.00043995, regt = 0.040259, ep = 1.5587e-05, 5.6415e-07

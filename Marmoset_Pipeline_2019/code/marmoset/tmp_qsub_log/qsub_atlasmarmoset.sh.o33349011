@@ -1,0 +1,50 @@
+Tue May 22 14:30:09 EDT 2018
+M822
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015b (8.6.0.267246) 64-bit (glnxa64)
+                              August 20, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+[Warning: Directory already exists.] 
+[> In STSpipeline_marmoset_bnb (line 17)] 
+[Warning: Directory already exists.] 
+[> In STSpipeline_marmoset_bnb (line 19)] 
+[Warning: Directory already exists.] 
+[> In STSpipeline_marmoset_bnb (line 21)] 
+Traceback (most recent call last):
+  File "alignTargetHorizontal_marmoset.py", line 49, in <module>
+    target_hist = sitk.HistogramMatchingImageFilter().Execute(target, atlas, numBins, numMatchPoints, False)
+  File "/sonas-hs/mitra/hpc/home/blee/.local/lib/python2.7/site-packages/SimpleITK/SimpleITK.py", line 35572, in Execute
+    return _SimpleITK.HistogramMatchingImageFilter_Execute(self, *args)
+RuntimeError: Exception thrown in SimpleITK HistogramMatchingImageFilter_Execute: /tmp/SimpleITK-build/SimpleITK-build/Code/BasicFilters/src/sitkHistogramMatchingImageFilter.cxx:111:
+sitk::ERROR: Image2 for HistogramMatchingImageFilter doesnt match type or dimension!
+Traceback (most recent call last):
+  File "applySTSCompositeTransform_step1.py", line 55, in <module>
+    with open(transformfile2matrix) as f:
+IOError: [Errno 2] No such file or directory: '/sonas-hs/mitra/hpc/home/blee/data/registration/M822/M822_STSpipeline_output/transforms//M822_XForm_firstrotation_matrix.txt'
+
+AVW_HDR_READ [v 1.1 ]
+{Error using avw_hdr_read (line 94)
+...cannot find file
+/sonas-hs/mitra/hpc/home/blee/data/registration/M822/M822_80_full_firstalign.hdr.hdr
+
+
+
+Error in avw_img_read (line 109)
+[ avw, machine ] = avw_hdr_read(fileprefix,machine,verbose);
+
+
+Error in STSpipeline_marmoset_bnb (line 33)
+temptarget = avw_img_read([parentoutputdirectoryname '/' patientnumber
+'_80_full_firstalign.img'],0);
+} 
+>> Tue May 22 14:30:51 EDT 2018

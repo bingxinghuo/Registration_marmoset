@@ -1,0 +1,267 @@
+Thu Sep 13 23:21:42 EDT 2018
+M852
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015b (8.6.0.267246) 64-bit (glnxa64)
+                              August 20, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+0,15863152
+1,30963572
+2,142994
+3,9736
+4,23098
+5,14
+6,14
+7,56321
+8,47
+9,31
+10,6
+11,978
+12,6
+13,26
+14,874
+15,29
+16,130
+17,70
+18,4
+19,238
+20,166
+21,39
+22,131
+23,2
+24,5202
+25,11
+26,2
+27,34
+28,8
+29,7
+30,1
+31,6
+32,6
+33,77
+34,2
+35,324
+36,84
+37,13
+38,2
+39,2880
+40,83
+41,128
+42,5
+43,18
+44,42
+45,284
+46,33
+47,3
+48,39
+49,10491
+50,262
+51,11
+52,88
+53,5643
+54,970
+55,877
+56,3
+57,48
+58,6
+59,521
+60,418
+61,59
+62,10
+63,65
+64,8
+65,8
+66,6
+67,25
+68,4
+69,237
+70,249
+71,1
+72,27
+73,120
+74,16
+75,28
+76,55
+77,10
+78,16
+79,63
+80,183
+81,151280
+82,55071
+83,5
+84,20995
+85,40
+86,2
+87,3
+88,6
+89,652
+90,4
+91,238
+92,813
+93,81
+94,22
+95,14
+96,21
+97,21
+98,1
+99,2
+100,458
+101,9174
+102,7146
+103,11
+104,20
+105,14
+106,196
+107,7
+108,74
+109,2
+110,324
+111,1
+112,74
+113,1
+114,298
+115,54
+116,4
+117,97
+118,288
+119,72
+120,2
+121,4
+122,10
+123,10
+124,28
+125,3
+126,248
+127,42
+128,48
+129,10
+130,24
+131,252
+132,2
+133,2
+134,3
+135,17
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.02 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.59 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.01 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.76 sec).
+
+[Warning: Directory already exists.] 
+[> In fluoroSTS_marmoset (line 15)] 
+[Warning: Directory already exists.] 
+[> In fluoroSTS_marmoset (line 17)] 
+
+nissl = 
+
+           hdr: [1x1 struct]
+    fileprefix: '/sonas-hs/mitra/hpc/home/blee/data/registration/M852/fluo...'
+           img: [322x403x321 double]
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 3.80 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.03 sec).
+
+Traceback (most recent call last):
+  File "/sonas-hs/mitra/hpc/home/blee/code/maskBySlice_input.py", line 43, in <module>
+    mymask = ndreg3D.imgMakeMask(refImg,threshold=inflectionpoint)
+  File "/mnt/grid/mitra/hpc/home/data/blee/code/ndreg3D.py", line 144, in imgMakeMask
+    tmpMask = sitk.BinaryThreshold(inImg, 0, threshold, 0, forgroundValue)
+  File "/sonas-hs/mitra/hpc/home/blee/.local/lib/python2.7/site-packages/SimpleITK/SimpleITK.py", line 16782, in BinaryThreshold
+    return _SimpleITK.BinaryThreshold(image1, lowerThreshold, upperThreshold, insideValue, outsideValue)
+TypeError: in method 'BinaryThreshold', argument 3 of type 'double'
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.62 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.50 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 4.10 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.00 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 3.63 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.01 sec).
+
+[Warning: Name is nonexistent or not a directory:
+/cis/home/dtward/Functions/interp] 
+[> In path (line 109)
+  In addpath (line 88)
+  In slice_alignment_walk_withatlas_fluoro (line 29)
+  In fluoroSTS_marmoset (line 131)] 
+[Warning: Name is nonexistent or not a directory:
+/cis/home/dtward/Functions/avwQuiet] 
+[> In path (line 109)
+  In addpath (line 88)
+  In slice_alignment_walk_withatlas_fluoro (line 30)
+  In fluoroSTS_marmoset (line 131)] 
+{Matrix dimensions must agree.
+
+Error in slice_alignment_walk_withatlas_fluoro (line 375)
+        Eimatlas = sum(1./sigma_atlas_vec(3:end-2).^2 .* squeeze(sum(sum(
+        (TI_orig(:,:,slicenumbers) - atlas(:,:,slicenumbers)).^2
+        )))')*prod(dx)/2;
+
+Error in fluoroSTS_marmoset (line 131)
+[output,a,b,theta,best_E] = slice_alignment_walk_withatlas_fluoro(fluoro,
+nissl.img, cost,niter, a_old, b_old, theta_old, interpmode, coronalflip);
+} 
+>> Thu Sep 13 23:26:17 EDT 2018

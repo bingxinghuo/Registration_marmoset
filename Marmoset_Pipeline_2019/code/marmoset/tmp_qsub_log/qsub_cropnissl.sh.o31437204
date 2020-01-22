@@ -1,0 +1,10 @@
+Sat May  5 13:19:59 EDT 2018
+
+Traceback (most recent call last):
+  File "cropMarmosetTarget.py", line 13, in <module>
+    img = sitk.ReadImage(targetfilename)
+  File "/sonas-hs/mitra/hpc/home/blee/.local/lib/python2.7/site-packages/SimpleITK/SimpleITK.py", line 8256, in ReadImage
+    return _SimpleITK.ReadImage(*args)
+RuntimeError: Exception thrown in SimpleITK ReadImage: /tmp/SimpleITK/Code/IO/src/sitkImageReaderBase.cxx:76:
+sitk::ERROR: The file "/sonas-hs/mitra/hpc/home/blee/data/stackalign/M/_80_full.img" does not exist.
+Sat May  5 13:20:12 EDT 2018

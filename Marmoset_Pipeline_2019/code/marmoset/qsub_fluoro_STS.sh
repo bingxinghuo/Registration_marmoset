@@ -1,0 +1,22 @@
+#!/bin/bash
+#$ -cwd
+#$ -j y
+#$ -S /bin/bash
+#$ -l m_mem_free=5G
+#$ -pe threads 16
+#$ -V
+
+date
+source /sonas-hs/it/hpc/home/easybuild/lmod-setup.sh
+#module load GCC/4.9.3-binutils-2.25
+#module load OpenMPI/.1.8.8
+#module load Python/2.7.10
+module load foss/2016a
+module load IntelPython/2.7.12
+#python ~/code/mouseRegistration_bnb.py $targetnumber
+echo $targetnumber
+/opt/hpc/pkg/MATLAB/R2015b/bin/matlab -nodesktop -r "fluoroSTS_marmoset('/sonas-hs/mitra/hpc/home/blee/data/registration/${targetnumber}/${targetnumber}_orig_target_STS.img', '/sonas-hs/mitra/hpc/home/blee/data/stackalign/${targetnumber}F_maskimg/${targetnumber}_80_AAV_full_cropped.img', '/sonas-hs/mitra/hpc/home/bhuo/scripts/Registration/Marmoset_Pipeline_2019/data/registration/${targetnumber}/fluoro/', '${targetnumber}');exit"
+#/opt/hpc/pkg/MATLAB/R2015b/bin/matlab -nodesktop -r "fluoroSTS_marmoset('/sonas-hs/mitra/hpc/home/kram/Marmoset_Pipeline_2019/data/registration/${targetnumber}/${targetnumber}_orig_target_STS.img', '/sonas-hs/mitra/hpc/home/kram/Marmoset_Pipeline_2019/data/stackalign/${targetnumber}F_maskimg/${targetnumber}_80_AAV_full_cropped.img', '/sonas-hs/mitra/hpc/home/kram/Marmoset_Pipeline_2019/data/registration/${targetnumber}/fluoro/', '${targetnumber}');exit"
+#/opt/hpc/pkg/MATLAB/R2015b/bin/matlab -nodesktop -r "fluoroSTS_marmoset('/sonas-hs/mitra/hpc/home/kram/Marmoset_Pipeline_2019/data/registrati.img', '/sonas-hs/mitra/hpc/home/kram/Marmoset_Pipeline_2019/data/stackalign/$
+#{targetnumber}F_maskimg/${targetnumber}_80_AAV_full_cropped.img', '/sonas-hs/mitra/hpc/home/kram/Marmoset_Pipeline_2019/data/registration/${targetnumber}/fluoro/', '${targetnumber}');exit"
+date

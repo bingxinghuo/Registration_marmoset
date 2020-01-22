@@ -1,0 +1,263 @@
+Mon May 21 14:07:43 EDT 2018
+M1231
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015b (8.6.0.267246) 64-bit (glnxa64)
+                              August 20, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+/sonas-hs/it/hpc/home/easybuild/install_prod/software/MPI/GCC/4.9.3-2.25/OpenMPI/1.10.2/IntelPython/2.7.12/lib/python2.7/site-packages/scipy/optimize/minpack.py:708: RuntimeWarning: overflow encountered in multiply
+  pcov = pcov * s_sq
+/sonas-hs/it/hpc/home/easybuild/install_prod/software/MPI/GCC/4.9.3-2.25/OpenMPI/1.10.2/IntelPython/2.7.12/lib/python2.7/site-packages/scipy/optimize/minpack.py:715: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+0,17132011
+1,32272171
+2,924
+3,549
+4,10
+5,18
+6,13428
+7,4
+8,2
+9,256
+10,2
+11,71
+12,11620
+13,11965
+14,2
+15,7186
+16,2
+17,326
+18,13756
+19,103
+20,37
+21,2
+22,8
+23,176
+24,4
+25,175
+26,167
+27,1198
+28,15
+29,158
+30,278
+31,2
+32,209
+33,1
+34,5
+35,138
+36,92
+37,160
+38,4
+39,8
+40,179
+41,128
+42,33
+43,175
+44,210
+45,314
+46,1
+47,2031
+48,483
+49,16
+50,46
+51,131
+52,424
+53,10
+54,16
+55,14
+56,18
+57,26
+58,34
+59,4
+60,16
+61,30
+62,8
+63,20
+64,123
+65,6
+66,376
+67,387
+68,14
+69,4
+70,1
+71,225
+72,46
+73,3
+74,14
+75,228
+76,2
+77,26
+78,3
+79,95
+80,13
+81,234
+82,674
+83,36
+84,8
+85,25
+86,86
+87,35
+88,311
+89,4
+90,11
+91,20
+92,17
+93,21
+94,266
+95,542
+96,574
+97,944
+98,1
+99,399
+100,526
+101,264
+102,2
+103,86
+104,42
+105,125
+106,199
+107,180
+108,454
+109,234
+110,4
+111,8
+112,7
+113,2
+114,115
+115,181
+116,423
+117,153
+118,43
+119,1
+120,2
+121,38
+122,4
+123,159
+124,48
+125,12
+126,6903
+127,16
+128,2
+129,408
+130,14
+131,5
+132,74
+133,11994
+134,30
+135,376
+136,62
+137,12
+138,22
+139,14
+140,16
+141,2
+142,4
+143,24
+144,185
+145,122
+146,56
+147,2
+148,2
+149,8
+150,2
+151,50
+152,8
+153,196
+154,2
+155,353
+156,24
+157,235
+158,236
+159,225
+160,366
+161,3
+162,38
+163,1
+164,4
+165,7
+166,21
+167,13
+168,22
+169,49
+170,2
+171,9
+172,2
+173,944
+174,2
+175,2
+176,6
+177,6
+178,24
+179,2
+180,8
+181,44
+182,26
+183,51
+184,4
+185,8
+186,7
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.02 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.58 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+{Error using avw_hdr_read (line 94)
+...cannot find file
+/sonas-hs/mitra/hpc/home/blee/data/stackalign/M1231C/M1231_80_full_cropped.hdr.hdr
+
+
+
+Error in avw_img_read (line 109)
+[ avw, machine ] = avw_hdr_read(fileprefix,machine,verbose);
+
+
+Error in ctbSTS_marmoset (line 13)
+fluoro = avw_img_read(fluorofilename,0);
+} 
+>> com.mathworks.util.ShutdownRuntimeException: Java is shutting down
+	at com.mathworks.services.Prefs.nativeGetPreferencesDirectory(Native Method)
+	at com.mathworks.services.Prefs.getPropertyDirectory(Prefs.java:198)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferenceUtils.resolveToPrefDir(MatlabKeyBindingPreferenceUtils.java:112)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferences.getModifiedDefaultFile(MatlabKeyBindingPreferences.java:213)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferences.resolveModifiedDefaultFilesFromPrefs(MatlabKeyBindingPreferences.java:116)
+	at com.mathworks.services.binding.MatlabKeyBindings.initializeFromPrefs(MatlabKeyBindings.java:717)
+	at com.mathworks.services.binding.MatlabKeyBindings.<clinit>(MatlabKeyBindings.java:590)
+	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:194)
+	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:190)
+	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions$1.<init>(DebuggerManager.java:97)
+	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions.<clinit>(DebuggerManager.java:97)
+	at com.mathworks.widgets.debug.DebuggerManager.getContinueAction(DebuggerManager.java:292)
+	at com.mathworks.matlabserver.worker.service.breakpoint.impl13b.DebuggerInstaller.<init>(DebuggerInstaller.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at com.mathworks.matlabserver.a.b.R(Unknown Source)
+	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
+	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
+	at com.mathworks.matlabserver.a.f.initialized(Unknown Source)
+	at com.mathworks.matlabserver.connectorcommon.b.b.run(Unknown Source)
+	at com.mathworks.matlabserver.connectorcommon.util.g.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Mon May 21 14:13:09 EDT 2018

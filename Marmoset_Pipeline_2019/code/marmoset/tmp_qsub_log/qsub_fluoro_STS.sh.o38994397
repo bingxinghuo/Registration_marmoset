@@ -1,0 +1,292 @@
+Thu Sep 13 23:21:26 EDT 2018
+M876
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015b (8.6.0.267246) 64-bit (glnxa64)
+                              August 20, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+/sonas-hs/it/hpc/home/easybuild/install_prod/software/MPI/GCC/4.9.3-2.25/OpenMPI/1.10.2/IntelPython/2.7.12/lib/python2.7/site-packages/scipy/optimize/minpack.py:715: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+/sonas-hs/it/hpc/home/easybuild/install_prod/software/MPI/GCC/4.9.3-2.25/OpenMPI/1.10.2/IntelPython/2.7.12/lib/python2.7/site-packages/scipy/optimize/minpack.py:708: RuntimeWarning: overflow encountered in multiply
+  pcov = pcov * s_sq
+0,16392070
+1,37953982
+2,42
+3,51
+4,12
+5,19149
+6,73
+7,85
+8,25
+9,158
+10,411
+11,486
+12,490
+13,962
+14,1811
+15,4
+16,3
+17,35
+18,37
+19,76
+20,14
+21,841
+22,4426
+23,14
+24,2890
+25,517
+26,20
+27,6
+28,48
+29,201
+30,152
+31,247
+32,1
+33,541
+34,1
+35,303
+36,16
+37,12
+38,14
+39,2
+40,4
+41,14
+42,4
+43,8
+44,6
+45,12
+46,2
+47,69
+48,8
+49,31
+50,6
+51,32
+52,4
+53,4
+54,4593
+55,12
+56,2
+57,8
+58,599
+59,16
+60,2
+61,4
+62,96
+63,140
+64,9
+65,422
+66,192
+67,209
+68,16
+69,78
+70,20
+71,12
+72,16
+73,181
+74,2
+75,12
+76,54
+77,219
+78,6
+79,76
+80,6
+81,29
+82,21
+83,12
+84,8
+85,15082
+86,2316
+87,379
+88,40
+89,12
+90,188
+91,1
+92,4
+93,1
+94,62
+95,224
+96,3
+97,36
+98,86
+99,8
+100,763
+101,232
+102,104
+103,185
+104,1643
+105,2
+106,8
+107,1346
+108,8
+109,188
+110,1
+111,134
+112,11
+113,109
+114,263
+115,62
+116,76
+117,59
+118,52
+119,13
+120,2
+121,8
+122,20
+123,3
+124,16
+125,38
+126,20
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.02 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.75 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.01 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 1.29 sec).
+
+[Warning: Directory already exists.] 
+[> In fluoroSTS_marmoset (line 15)] 
+[Warning: Directory already exists.] 
+[> In fluoroSTS_marmoset (line 17)] 
+
+nissl = 
+
+           hdr: [1x1 struct]
+    fileprefix: '/sonas-hs/mitra/hpc/home/blee/data/registration/M876/fluo...'
+           img: [358x396x337 double]
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 5.21 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.03 sec).
+
+Traceback (most recent call last):
+  File "/sonas-hs/mitra/hpc/home/blee/code/maskBySlice_input.py", line 43, in <module>
+    mymask = ndreg3D.imgMakeMask(refImg,threshold=inflectionpoint)
+  File "/mnt/grid/mitra/hpc/home/data/blee/code/ndreg3D.py", line 144, in imgMakeMask
+    tmpMask = sitk.BinaryThreshold(inImg, 0, threshold, 0, forgroundValue)
+  File "/sonas-hs/mitra/hpc/home/blee/.local/lib/python2.7/site-packages/SimpleITK/SimpleITK.py", line 16782, in BinaryThreshold
+    return _SimpleITK.BinaryThreshold(image1, lowerThreshold, upperThreshold, insideValue, outsideValue)
+TypeError: in method 'BinaryThreshold', argument 3 of type 'double'
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...ensuring 4 dimensions in avw.hdr.dime.dim
+...done ( 0.01 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.92 sec).
+
+
+AVW_HDR_READ [v 1.1 ]
+...reading ieee-le Analyze format...done ( 0.00 sec).
+
+AVW_IMG_READ [v 1.1 ]
+...reading ieee-le Analyze single image format.
+...reading axial unflipped orientation
+...done ( 0.87 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 4.88 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.00 sec).
+
+
+AVW_IMG_WRITE [v 1.1 ]
+...writing single precision Analyze image (ieee-le).
+...no IMGorient specified, using avw.hdr.hist.orient value.
+...writing axial unflipped
+...done ( 4.95 sec).
+
+AVW_HDR_WRITE [v 1.2 ]
+...writing ieee-le Analyze header.
+...done ( 0.00 sec).
+
+[Warning: Name is nonexistent or not a directory:
+/cis/home/dtward/Functions/interp] 
+[> In path (line 109)
+  In addpath (line 88)
+  In slice_alignment_walk_withatlas_fluoro (line 29)
+  In fluoroSTS_marmoset (line 131)] 
+[Warning: Name is nonexistent or not a directory:
+/cis/home/dtward/Functions/avwQuiet] 
+[> In path (line 109)
+  In addpath (line 88)
+  In slice_alignment_walk_withatlas_fluoro (line 30)
+  In fluoroSTS_marmoset (line 131)] 
+{Matrix dimensions must agree.
+
+Error in slice_alignment_walk_withatlas_fluoro (line 375)
+        Eimatlas = sum(1./sigma_atlas_vec(3:end-2).^2 .* squeeze(sum(sum(
+        (TI_orig(:,:,slicenumbers) - atlas(:,:,slicenumbers)).^2
+        )))')*prod(dx)/2;
+
+Error in fluoroSTS_marmoset (line 131)
+[output,a,b,theta,best_E] = slice_alignment_walk_withatlas_fluoro(fluoro,
+nissl.img, cost,niter, a_old, b_old, theta_old, interpmode, coronalflip);
+} 
+>> com.mathworks.util.ShutdownRuntimeException: Java is shutting down
+	at com.mathworks.services.Prefs.nativeGetPreferencesDirectory(Native Method)
+	at com.mathworks.services.Prefs.getPropertyDirectory(Prefs.java:198)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferenceUtils.resolveToPrefDir(MatlabKeyBindingPreferenceUtils.java:112)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferences.getModifiedDefaultFile(MatlabKeyBindingPreferences.java:213)
+	at com.mathworks.services.binding.MatlabKeyBindingPreferences.resolveModifiedDefaultFilesFromPrefs(MatlabKeyBindingPreferences.java:116)
+	at com.mathworks.services.binding.MatlabKeyBindings.initializeFromPrefs(MatlabKeyBindings.java:717)
+	at com.mathworks.services.binding.MatlabKeyBindings.<clinit>(MatlabKeyBindings.java:590)
+	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:194)
+	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:190)
+	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions$1.<init>(DebuggerManager.java:97)
+	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions.<clinit>(DebuggerManager.java:97)
+	at com.mathworks.widgets.debug.DebuggerManager.getContinueAction(DebuggerManager.java:292)
+	at com.mathworks.matlabserver.worker.service.breakpoint.impl13b.DebuggerInstaller.<init>(DebuggerInstaller.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at com.mathworks.matlabserver.a.b.R(Unknown Source)
+	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
+	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
+	at com.mathworks.matlabserver.a.f.initialized(Unknown Source)
+	at com.mathworks.matlabserver.connectorcommon.b.b.run(Unknown Source)
+	at com.mathworks.matlabserver.connectorcommon.util.g.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Thu Sep 13 23:26:54 EDT 2018

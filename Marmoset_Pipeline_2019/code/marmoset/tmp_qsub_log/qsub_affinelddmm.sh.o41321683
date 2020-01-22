@@ -1,0 +1,22 @@
+Mon Oct 29 13:52:12 EDT 2018
+M1231
+mkdir: cannot create directory `/sonas-hs/mitra/hpc/home/blee/data/registration/M1231/': File exists
+
+INPUTS TO THE PROGRAM
+0> /sonas-hs/mitra/hpc/home/blee/code/can/BIN/IMG_apply_lddmm_tform1
+1> /sonas-hs/mitra/hpc/home/blee/data/registration/M1231//M1231_invivo_to_exvivo_MRI.img
+2> /sonas-hs/mitra/hpc/home/blee/data/registration/M1231//M1231_invivo_to_exvivo_lddmm/Hmap000.vtk
+3> /sonas-hs/mitra/hpc/home/blee/data/registration/M1231//M1231_invivo_to_exvivo_lddmm/M1231_invivo_to_exvivo_MRI_lddmm.img
+4> 1
+
+VTKMAP
+ Mapx max value is 305 and min value is 0
+ Mapy max value is 456 and min value is 0
+ Mapz max value is 353 and min value is 0
+ Mapx absmax value is 305 and absmin value is -0
+ Mapy absmax value is 456 and absmin value is -0
+ Mapz absmax value is 353 and absmin value is -0
+ Inside AnalyzeImage::saveAnalyzeImageData() 
+ File /sonas-hs/mitra/hpc/home/blee/data/registration/M1231//M1231_invivo_to_exvivo_lddmm/M1231_invivo_to_exvivo_MRI_lddmm.img opened successfully 
+ size_of_data_in_bytes = 198016272
+Mon Oct 29 13:52:27 EDT 2018

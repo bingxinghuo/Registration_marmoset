@@ -1,0 +1,4 @@
+/sonas-hs/mitra/hpc/home/blee/code/marmoset/BIN/		(BIN_DIRECTORY)
+/sonas-hs/mitra/hpc/home/blee/code/marmoset			(SCRIPTS_DIRECTORY)
+/usr/local/air/bin/							(AIR_BIN_DIRECTORY)
+
