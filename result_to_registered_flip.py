@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Dec 30 18:05:00 2019
+Modified on Tue Apr 28 2020
 
 @author: bingxinghuo
 """
@@ -25,7 +26,7 @@ if resultfile.endswith('.tif'):
 elif resultfile.endswith('.mat'):
     import h5py
     f=h5py.File(resultfile,'r') # read file -v7.3 mat
-    a=f['neurondensityvol'] 
+    a=f['neurondensityproof'] 
     C=a.len() # number of cells
     a1=a[0][0] # access individual cell
     a1=f.get(a1).value # get numpy array
