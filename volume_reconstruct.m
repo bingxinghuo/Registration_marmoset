@@ -31,5 +31,5 @@ else
     end
     
 end
-disp('Please proofread using ',maskfile,' before transforming into the atlas space.')
+% disp(['Please proofread using ',maskfile,' before transforming into the atlas space.'])
 
