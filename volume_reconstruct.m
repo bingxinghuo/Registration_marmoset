@@ -17,7 +17,7 @@ if length(signal3d)==1
     saveimgstack(signal3d{1},savefile);
     saveimgstack(uint8(signal3d{1}>0)*255,maskfile);
 else
-    rgbimg=cat(3,signal3d{1}(:,:,1),signal3d{2}(:,:,1),signal3d{3}(:,:,1));
+    rgbimg=cat(4,signal3d{1},signal3d{2},signal3d{3});
     saveimgstack(rgbimg,savefile);
     saveimgstack(uint8(rgbimg>0)*255,maskfile);    
 end

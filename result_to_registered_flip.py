@@ -26,20 +26,34 @@ if resultfile.endswith('.tif'):
 elif resultfile.endswith('.mat'):
     import h5py
     f=h5py.File(resultfile,'r') # read file -v7.3 mat
-    a=f['neurondensityproof'] 
-    C=a.len() # number of cells
-    a1=a[0][0] # access individual cell
-    a1=f.get(a1).value # get numpy array
+    a=f['neurondensityproof']
+    [C1,C2]=a.shape # number of cells
+    n=0
+    a1=a[0][n] # access individual cell
+    a1=f.get(a1)[()] # get numpy array
+    while (a1.sum()==0):
+        n=n+1
+        a1=a[0][n]
+        a1=f.get(a1)[()] # get numpy array
+        
     matsize=a1.shape
     matsizel=list(matsize)
     matsizel.append(3)
     matsize=tuple(matsizel)
     arr=np.empty(matsize)
-    arr[:,:,:,0]=a1
-    for c in range(1,C):
-        a1=a[c][0] # access individual cell
-        a1=f.get(a1).value # get numpy array
-        arr[:,:,:,c]=a1
+#    arr[:,:,:,0]=a1
+    if C2>C1:
+        for c in range(1,C2):
+            a1=a[C1-1][c] # access individual cell
+            a1=f.get(a1)[()] # get numpy array
+            if a1.sum()>0:
+                arr[:,:,:,c]=a1
+            
+#    elif C1>C2:
+#        for c in range(1,C1):
+#            a1=a[c][C2-1] # access individual cell
+#            a1=f.get(a1)[()] # get numpy array
+#            arr[:,:,:,c]=a1
             
 
 atlasimg=sitk.ReadImage(atlasfile)
